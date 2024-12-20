@@ -24,6 +24,8 @@ Synthetic_Networks/Link_Prediction_Scripts - scripts used to run link prediction
 
 Synthetic_Networks/link_prediction_demo_synthetic.ipynb - Jupyter notebook providing a demonstration of running link prediction on a single synthetic network, with details printed
 
+Synthetic_Networks/Synth_Nets_Directed_Assortative_Demo - folder containing one synthetic network to run the above demonstration script on 
+
 Synthetic_Networks/Results_Demo - folder containing results from running the above demonstration script
 
 Synthetic_Networks/visualize_synthetic_directed_results.ipynb - Jupyter notebook visualizing the results across all synthetic networks
