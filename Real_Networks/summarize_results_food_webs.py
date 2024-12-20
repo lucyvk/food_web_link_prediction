@@ -99,7 +99,7 @@ def food_web_result_to_file(folder, Results_Folder, num_it, ids_to_skip, folder_
         if os.path.isdir(f'{folder}/{x}'):
             fw_name = x.split('_')[0]
             fw_id = x.split('_')[1]
-            if fw_name in folder_shorter_names:
+            if fw_name.strip() in folder_shorter_names:
                 fw_name = folder_shorter_names[fw_name]
             roc_out_file = os.path.join(Results_Folder,f'stacking_auc_{fw_name}_{fw_id}.csv')
             pr_out_file = os.path.join(Results_Folder,f'stacking_avp_{fw_name}_{fw_id}.csv')
