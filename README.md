@@ -1,6 +1,8 @@
-This repository contains the code used in the pre-print "Predicting missing links in food webs using stacked models and species traits" -  https://doi.org/10.1101/2024.11.22.624890, Lucy Van Kleunen, Laura E. Dee, Kate L. Wootton, Francois Massol, Aaron Clauset. 2024.
+This repository contains the code used in the pre-print "Predicting missing links in food webs using stacked models and species traits" -  https://doi.org/10.1101/2024.11.22.624890
 
-# Methods files: -----------------------------------------------------------------------------------------------------------------------------------------
+Lucy Van Kleunen, Laura E. Dee, Kate L. Wootton, Francois Massol, Aaron Clauset. 2024.
+
+# Methods files:
 
 Methods/stacking_model/OLP.py - this is the main file that implements the functions used in the stacked generalization missing link prediction procedure
 
@@ -12,7 +14,7 @@ Methods/stacking_model/eco_predictors_helper.py - this file provides helper func
 
 Methods/stacking_model/link_prediction_helper.py - this file provides helper functions for testing the link prediction procedure with different feature subsets on a single network
 
-# Synthetic food web tests: ------------------------------------------------------------------------------------------------------------------------------
+# Synthetic food web tests:
 
 Synthetic_Networks/Network_Generation_Scripts - scripts used to generate synthetic networks
 
@@ -28,7 +30,7 @@ Synthetic_Networks/visualize_synthetic_directed_results.ipynb - Jupyter notebook
 
 Synthetic_Networks/viz_helper.py - helper functions for visualizing synthetic network results
 
-# Empirical food web tests: ------------------------------------------------------------------------------------------------------------------------------
+# Empirical food web tests:
 
 Real_Networks/Data_Processing_Code_(Dis)Aggregated_Lifestage - Jupyter notebooks for pre-processing the data files to produce the versions of the empirical network files used in our link prediction tests for aggregated and disaggregated versions by lifestage. Metadata files are produced.
 
