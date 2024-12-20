@@ -63,8 +63,6 @@ Real_Networks/food_web_property_regressions.R - R script for running regressions
 Real_Networks/Regression_Results - regression results
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-Additional processed data files and results files across all food webs and syntehtic networks can be regenerated from the above code, or provided upon request.
-
-
+Additional processed data files and results files across all food webs and synthetic networks can be regenerated from the above code, or provided upon request. The data processing, link prediction scripts, and synthetic network visualiations were run on CentOS Linux 7, and the food web visualiations and demonstration scripts for both empirical and synthetic networks were run on Windows 11. Cloning this repository should typically take less than 1 minute.
 
 
