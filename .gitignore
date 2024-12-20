@@ -18,6 +18,7 @@ Real_Networks/Regression_Results/ROC/
 Real_Networks/Results_Food_Webs_*/
 Real_Networks/Summarized_Results/feature_importance_*
 Synthetic_Networks/Results_Synthetic_*/
-Synthetic_Networks/Synth_Nets_*/
+Synthetic_Networks/Synth_Nets_Directed_Assortative/
+Synthetic_Networks/Synth_Nets_Directed_Disassortative/
 Synthetic_Networks/Figures/
 
