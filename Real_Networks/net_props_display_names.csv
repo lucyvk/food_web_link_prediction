@@ -1,0 +1,24 @@
+feat,display
+miss_mass_frac,missing mass fraction
+high_tax_frac,higher taxonomic level proportion
+unclassified_tax_frac,unclassified taxonomic level proportion
+parasitic_removal,parasitic interaction removal
+cannibalistic_removal,cannibalistic interaction removal
+num_attr,number node attributes
+min_log_mass,minimum log(mass)
+max_log_mass,maximum log(mass)
+mean_log_mass,mean log(mass)
+median_log_mass,median log(mass)
+mass_skewness,mass skewness
+log_num_nodes,log(nodes)
+avg_degree,average degree
+connectance,connectance
+clustering_coefficient,clustering coefficient
+modularity,modularity
+assort_mass,log(mass) assortativity
+assort_met,metabolic type assortativity
+assort_mov,movement type assortativity
+deg_assort_io,degree (in to out) assortativity
+deg_assort_oi,degree (out to in) assortativity
+deg_assort_oo,degree (out to out) assortativity
+deg_assort_ii,degree (in to in) assortativity
