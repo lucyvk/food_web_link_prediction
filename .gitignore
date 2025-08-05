@@ -15,6 +15,8 @@ Real_Networks/Figures/
 Real_Networks/Processed_Data_Disaggregated_Lifestage_*/
 Real_Networks/Regression_Results/PR/
 Real_Networks/Regression_Results/ROC/
+Real_Networks/Regression_Results_Beta/PR/
+Real_Networks/Regression_Results_Beta/ROC/
 Real_Networks/Results_Food_Webs_*/
 Real_Networks/Summarized_Results/feature_importance_*
 Synthetic_Networks/Results_Synthetic_*/
