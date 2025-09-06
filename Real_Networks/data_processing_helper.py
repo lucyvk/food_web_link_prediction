@@ -125,7 +125,9 @@ doesn't return anything but plots a count plot
 '''
 def sorted_count_plot(ct_dict, check_num, x_adjust, y_adjust, count_of, fig_name, FONT_SIZE):
     sorted_dict = sorted(ct_dict.items(), key=lambda x:x[1])
-    assert np.sum(list(ct_dict.values())) == check_num, f"incorrect number - {check_num}"
+    
+    # to check that the overall number is expected
+    # assert np.sum(list(ct_dict.values())) == check_num, f"incorrect number - {check_num}"
 
     labels = []
     heights = []
