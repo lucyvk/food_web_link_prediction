@@ -159,41 +159,25 @@ for (typ in 1:6) {
         curr_metric <- rownames(sum$coefficients$mean)[mt_idx]
 
         # Mean estimate
-        mean_intercept <- sum$coefficients$mean['(Intercept)','Estimate']
-        mean_intercept_se <- sum$coefficients$mean['(Intercept)','Std. Error']
-        mean_intercept_pvalue <- sum$coefficients$mean['(Intercept)','Pr(>|z|)']
-
         mean_coef <- sum$coefficients$mean[curr_metric,'Estimate']
         mean_coef_se <- sum$coefficients$mean[curr_metric,'Std. Error']
+        mean_coef_conf_low <- mean_coef - 1.96*mean_coef_se
+        mean_coef_conf_high <- mean_coef + 1.96*mean_coef_se
+        mean_coef_zvalue <- sum$coefficients$mean[curr_metric,'z value']
         mean_coef_pvalue <- sum$coefficients$mean[curr_metric,'Pr(>|z|)']
 
-        #Precision estimate
-        precision_phi <- sum$coefficients$precision['(phi)','Estimate']
-        precision_phi_se <- sum$coefficients$precision['(phi)','Std. Error']
-        precision_phi_pvalue <- sum$coefficients$precision['(phi)','Pr(>|z|)']
-
-        pseudo_r_squared <- sum$pseudo.r.squared
-
-        res<- as.numeric(c(mean_intercept,
-                           mean_intercept_se,
-                           mean_intercept_pvalue,
-                           mean_coef,
+        res<- as.numeric(c(mean_coef,
                            mean_coef_se,
-                           mean_coef_pvalue,
-                           precision_phi,
-                           precision_phi_se,
-                           precision_phi_pvalue,
-                           pseudo_r_squared))
-        names(res)<- c("mean_intercept",
-                       "mean_intercept_se",
-                       "mean_intercept_pvalue",
-                       "mean_coef",
+                           mean_coef_conf_low,
+                           mean_coef_conf_high,
+                           mean_coef_zvalue,
+                           mean_coef_pvalue))
+        names(res)<- c("mean_coef",
                        "mean_coef_se",
-                       "mean_coef_pvalue",
-                       "precision_phi",
-                       "precision_phi_se",
-                       "precision_phi_pvalue",
-                       "pseudo_r_squared")
+                       "mean_coef_conf_low",
+                       "mean_coef_conf_high",
+                       "mean_coef_zvalue",
+                       "mean_coef_pvalue")
         return(res)
       })
     res_df <- as.data.frame(t(as.data.frame(results, check.names = FALSE)))
@@ -264,43 +248,49 @@ for (typ in 1:6) {
 
   # ROC-AUC
 
-  # Create a dataframe in the form expected by the dotwhisker plot (look like a multivariate res)
-  struc_roc_part <- select(struc_roc_res_df, c("mean_coef","mean_coef_se","p_adjusted"))
-  struc_roc_part <- cbind(rownames(struc_roc_part), data.frame(struc_roc_part, row.names=NULL))
-  colnames(struc_roc_part) <- c("term", "estimate", "std.error","p.adjusted")
+  struc_roc_part <- cbind(rownames(struc_roc_res_df), data.frame(struc_roc_res_df, row.names=NULL))
   struc_roc_part$model <- "Structure"
-
-  attr_roc_part <- select(attr_roc_res_df, c("mean_coef","mean_coef_se","p_adjusted"))
-  attr_roc_part <- cbind(rownames(attr_roc_part), data.frame(attr_roc_part, row.names=NULL))
-  colnames(attr_roc_part) <- c("term", "estimate", "std.error","p.adjusted")
+  colnames(struc_roc_part)[1] <- c("feature_name")
+  attr_roc_part <- cbind(rownames(attr_roc_res_df), data.frame(attr_roc_res_df, row.names=NULL))
   attr_roc_part$model <- "Attribute"
-
-  full_roc_part <- select(full_roc_res_df, c("mean_coef","mean_coef_se","p_adjusted"))
-  full_roc_part <- cbind(rownames(full_roc_part), data.frame(full_roc_part, row.names=NULL))
-  colnames(full_roc_part) <- c("term", "estimate", "std.error","p.adjusted")
+  colnames(attr_roc_part)[1] <- c("feature_name")
+  full_roc_part <- cbind(rownames(full_roc_res_df), data.frame(full_roc_res_df, row.names=NULL))
   full_roc_part$model <- "Full"
-
+  colnames(full_roc_part)[1] <- c("feature_name")
+  
+  roc_coef_out_file <- rbind(full_roc_part, attr_roc_part, struc_roc_part)
+  
+  # Create a dataframe in the form expected by the dotwhisker plot (look like a multivariate res)
+  struc_roc_part <- select(struc_roc_part, c("feature_name","mean_coef","mean_coef_se","p_adjusted", "model"))
+  attr_roc_part <- select(attr_roc_part, c("feature_name","mean_coef","mean_coef_se","p_adjusted", "model"))
+  full_roc_part <- select(full_roc_part, c("feature_name","mean_coef","mean_coef_se","p_adjusted", "model"))
+  colnames(struc_roc_part)[1:4] <- c("term", "estimate", "std.error","p.adjusted")
+  colnames(attr_roc_part)[1:4] <- c("term", "estimate", "std.error","p.adjusted")
+  colnames(full_roc_part)[1:4] <- c("term", "estimate", "std.error","p.adjusted")
   roc_coef_results_plot <- rbind(full_roc_part,attr_roc_part,struc_roc_part)
   roc_coef_panel <- custom_coef_plot(roc_coef_results_plot, coef_order, "ROC-AUC", "none", "Food web properties", -0.15, 0.15)
 
   # PR-AUC
 
-  # Create a dataframe in the form expected by the dotwhisker plot (look like a multivariate res)
-  struc_pr_part <- select(struc_pr_res_df, c("mean_coef","mean_coef_se","p_adjusted"))
-  struc_pr_part <- cbind(rownames(struc_pr_part), data.frame(struc_pr_part, row.names=NULL))
-  colnames(struc_pr_part) <- c("term", "estimate", "std.error","p.adjusted")
+  struc_pr_part <- cbind(rownames(struc_pr_res_df), data.frame(struc_pr_res_df, row.names=NULL))
   struc_pr_part$model <- "Structure"
-
-  attr_pr_part <- select(attr_pr_res_df, c("mean_coef","mean_coef_se","p_adjusted"))
-  attr_pr_part <- cbind(rownames(attr_pr_part), data.frame(attr_pr_part, row.names=NULL))
-  colnames(attr_pr_part) <- c("term", "estimate", "std.error","p.adjusted")
+  colnames(struc_pr_part)[1] <- c("feature_name")
+  attr_pr_part <- cbind(rownames(attr_pr_res_df), data.frame(attr_pr_res_df, row.names=NULL))
   attr_pr_part$model <- "Attribute"
-
-  full_pr_part <- select(full_pr_res_df, c("mean_coef","mean_coef_se","p_adjusted"))
-  full_pr_part <- cbind(rownames(full_pr_part), data.frame(full_pr_part, row.names=NULL))
-  colnames(full_pr_part) <- c("term", "estimate", "std.error","p.adjusted")
+  colnames(attr_pr_part)[1] <- c("feature_name")
+  full_pr_part <- cbind(rownames(full_pr_res_df), data.frame(full_pr_res_df, row.names=NULL))
   full_pr_part$model <- "Full"
-
+  colnames(full_pr_part)[1] <- c("feature_name")
+  
+  pr_coef_out_file <- rbind(full_pr_part, attr_pr_part, struc_pr_part)
+  
+  # Create a dataframe in the form expected by the dotwhisker plot (look like a multivariate res)
+  struc_pr_part <- select(struc_pr_part, c("feature_name","mean_coef","mean_coef_se","p_adjusted", "model"))
+  attr_pr_part <- select(attr_pr_part, c("feature_name","mean_coef","mean_coef_se","p_adjusted", "model"))
+  full_pr_part <- select(full_pr_part, c("feature_name","mean_coef","mean_coef_se","p_adjusted", "model"))
+  colnames(struc_pr_part)[1:4] <- c("term", "estimate", "std.error","p.adjusted")
+  colnames(attr_pr_part)[1:4] <- c("term", "estimate", "std.error","p.adjusted")
+  colnames(full_pr_part)[1:4] <- c("term", "estimate", "std.error","p.adjusted")
   pr_coef_results_plot <- rbind(full_pr_part,attr_pr_part,struc_pr_part)
   pr_coef_panel <- custom_coef_plot(pr_coef_results_plot, coef_order, "PR-AUC", "none", "", -0.15, 0.15)
 
@@ -319,11 +309,10 @@ for (typ in 1:6) {
   ggsave(glue("Regression_Results_Beta/Coefficient_Plot_{Scaled}_{curr_eco_type_name}_Beta.pdf"), width=7.4, height=6, device=cairo_pdf)
 
   # Output a table with the adjusted p-values (a bit more information on results than the coefficient plot)
-  roc_coef_results_plot$metric <- "ROC-AUC"
-  pr_coef_results_plot$metric <- "PR-AUC"
-  full_reg_results <- rbind(roc_coef_results_plot,pr_coef_results_plot)
-  colnames(full_reg_results)[1:4] <- c("feature_name","coef_estimate","coef_std_error","coef_p_adjusted")
-  full_reg_results$significance <- sapply(full_reg_results$coef_p_adjusted, to_star_string)
+  roc_coef_out_file$metric <- "ROC-AUC"
+  pr_coef_out_file$metric <- "PR-AUC"
+  full_reg_results <- rbind(roc_coef_out_file,pr_coef_out_file)
+  full_reg_results$significance <- sapply(full_reg_results$p_adjusted, to_star_string)
   write.csv(full_reg_results, file = glue("Regression_Results_Beta/food_web_regression_results_{curr_eco_type_name}_Beta_{Scaled}.csv"))
 
   if (curr_eco_type_name == "all"){

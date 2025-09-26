@@ -27,18 +27,19 @@ with open(os.path.join(Processed_Data_Version, 'fw_attr_types.pickle'), 'rb') as
 with open(os.path.join(Processed_Data_Version, 'fw_ids.pickle'), 'rb') as handle:
     fw_ids = pickle.load(handle)
 
+# The following seeds correspond to those used for each iteration in the paper
+# Processed_Data_Disaggregated_Lifestage - seed=55 --> Results_Food_Webs_0
+# Processed_Data_Disaggregated_Lifestage_1 - seed=222 --> Results_Food_Webs_1
+# Processed_Data_Disaggregated_Lifestage_2 - seed=333 --> Results_Food_Webs_2
+# Processed_Data_Disaggregated_Lifestage_3 - seed=555 --> Results_Food_Webs_3
+# Processed_Data_Disaggregated_Lifestage_4 - seed=666 --> Results_Food_Webs_4
+# Processed_Data_Aggregated_Lifestage - seed=55 --> Results_Food_Webs_Aggregated
+
 # Link prediction comparison arguments 
 details = False
 extra_links = False
-res_folder = 'Results_Food_Webs'
+res_folder = 'Results_Food_Webs_0'
 seed = 55 # set a seed for reproducing the same results as those in the paper (on Processed_Data_Disaggregated_Lifestage)
-
-# The following seeds correspond to those used for each version of the data in the paper:
-# Processed_Data_Disaggregated_Lifestage_1 - seed=222
-# Processed_Data_Disaggregated_Lifestage_2 - seed=333
-# Processed_Data_Disaggregated_Lifestage_3 - seed=555
-# Processed_Data_Disaggregated_Lifestage_4 - seed=666
-# Processed_Data_Aggregated_Lifestage - seed=55
 
 # short (in processed data) to long name (in results files) dictionary
 folder_shorter_names = {'Grand Caricaie Clmown1':'Grand Caricaie  marsh dominated by Cladietum marisci, mown  Clmown1',\
