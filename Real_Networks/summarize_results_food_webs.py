@@ -8,6 +8,9 @@ import os
 import scipy.stats
 import pandas as pd
 from matplotlib.lines import Line2D
+import pingouin
+import matplotlib.patches as mpatches
+
 
 '''
 Helper function to check to make sure we have results for all the food webs 
@@ -172,7 +175,10 @@ Returns:
 Doesn't return anything but plots summary plots on passed in subplots
 '''
 def food_web_result_plots(Data_Folder, Results_Folders, ids_to_skip, out_stem, type1, type2, num_it, bl_check,\
-                          plot_means, subplots, skip, num_webs, folder_shorter_names, FONT_SIZE, full_color, struc_color, attr_color):
+                          plot_means, subplots, skip, num_webs, folder_shorter_names, FONT_SIZE, full_color, struc_color, attr_color,\
+                          include_attrs=True):
+    
+    print(f" --------- {type2} -------------------")
     
     best_model = [0,0,0] # counts of which is the best model full / structure / attributes 
     res_plot = np.zeros((num_webs-len(ids_to_skip),3)) # topo, traits, full
@@ -270,20 +276,49 @@ def food_web_result_plots(Data_Folder, Results_Folders, ids_to_skip, out_stem, t
     print(f"attr std - {stddevs[2]}")
     
     # Is there a difference in mean (via paired t-tests as each is for the same set of food webs)
-    print("T test - difference in mean")
-    res1 = scipy.stats.ttest_rel(struc_res,attr_res)
-    s1 = res1.statistic
-    p1 = res1.pvalue
-    print(f"structure vs. attribute - {s1} , {p1}")
-    res2 = scipy.stats.ttest_rel(full_res,attr_res)
-    s2 = res2.statistic
-    p2 = res2.pvalue
-    print(f"full vs. attribute - {s2} , {p2}")
+    if include_attrs:
+        print("T test - difference in mean")
+        
+        res1 = scipy.stats.ttest_rel(struc_res, attr_res)
+        s1 = res1.statistic
+        p1 = res1.pvalue
+        conf1 = res1.confidence_interval()
+        print("------------------------")
+        print("structure vs. attribute")
+        print(f"t-statistic: {round(s1,3)}")
+        print(f"confidence interval: {(round(conf1.low,3), round(conf1.high,3))}")
+        print(f"Cohen's d avg: {round(pingouin.compute_effsize(struc_res, attr_res, paired=True, eftype='cohen'),3)}")
+        print(f"Degrees of freedom: {res1.df}")
+        print(f"p-value: {round(p1,3)}")
+
+        res2 = scipy.stats.ttest_rel(full_res, attr_res)
+        s2 = res2.statistic
+        p2 = res2.pvalue
+        conf2 = res2.confidence_interval()
+        print("------------------------")
+        print(f"full vs. attribute")
+        print(f"t-statistic: {round(s2,3)}")
+        print(f"confidence interval: {(round(conf2.low,3), round(conf2.high,3))}")
+        print(f"Cohen's d avg: {round(pingouin.compute_effsize(full_res, attr_res, paired=True, eftype='cohen'),3)}")
+        print(f"Degrees of freedom: {res2.df}")
+        print(f"p-value: {round(p2,3)}")
+    
     res3 = scipy.stats.ttest_rel(full_res,struc_res)
     s3 = res3.statistic
     p3 = res3.pvalue
-    print(f"full vs. structure - {s3} , {p3}")
-    ps = [p1,p2,p3]
+    conf3 = res3.confidence_interval()
+    print("------------------------")
+    print(f"full vs. structure")
+    print(f"t-statistic: {round(s3,3)}")
+    print(f"confidence interval: {(round(conf3.low,3), round(conf3.high,3))}")
+    print(f"Cohen's d avg: {round(pingouin.compute_effsize(full_res, struc_res, paired=True, eftype='cohen'),3)}")
+    print(f"Degrees of freedom: {res3.df}")
+    #print(f"p-value: {round(p3,3)}")
+
+    if include_attrs:
+        ps = [p1,p2,p3]
+    else:
+        ps = [p3]
     
     # Peform a multiple testing comparison adjustment to the p-values
     aps = scipy.stats.false_discovery_control(ps, method='bh')
@@ -306,14 +341,19 @@ def food_web_result_plots(Data_Folder, Results_Folders, ids_to_skip, out_stem, t
         else:
             sig_stars.append("")
     
-    print("T test - difference in mean, after multiple testing adjustment:")
-    print(f"structure vs. attribute - {s1} , {aps[0]} {sigs[0]} {sig_stars[0]}")
-    print(f"full vs. attribute - {s2} , {aps[1]} {sigs[1]} {sig_stars[1]}")
-    print(f"full vs. structure - {s3} , {aps[2]} {sigs[2]} {sig_stars[2]}")
+    if include_attrs:
+        print(f"structure vs. attribute corrected p:  {round(aps[0],3)} {sigs[0]} {sig_stars[0]}")
+        print(f"full vs. attribute corrected p: {round(aps[1],3)} {sigs[1]} {sig_stars[1]}")
+        print(f"full vs. structure corrected p: {round(aps[2],3)} {sigs[2]} {sig_stars[2]}")
+    else:
+        print(f"full vs. structure corrected p: {round(aps[0],3)} {sigs[0]} {sig_stars[0]}")
 
     plt.subplot(subplots[0][0], subplots[0][1], subplots[0][2])
     plt.title(f'{out_stem}',fontsize=FONT_SIZE)
-    plt.xlim([0,4])
+    if include_attrs:
+        plt.xlim([0,4])
+    else:
+        plt.xlim([0,3])
     if type2 == 'ROC':
         plt.hlines(0.5, 0, 5, linestyles='dashed', color = 'k', linewidth=0.8)
         plt.ylim([0.4,1.13])
@@ -328,8 +368,12 @@ def food_web_result_plots(Data_Folder, Results_Folders, ids_to_skip, out_stem, t
     bar_tip_y_adjust = -(y_range * 0.02)
     y_bar_levels = [1,2,0]
     axes = plt.gca()
-    bplot = axes.boxplot(aucs, patch_artist=True)
-    colors = [full_color,struc_color,attr_color]
+    if include_attrs:
+        bplot = axes.boxplot(aucs, patch_artist=True)
+        colors = [full_color,struc_color,attr_color]
+    else:
+        bplot = axes.boxplot(aucs[0:2], patch_artist=True)
+        colors = [full_color,struc_color]
     for patch, color in zip(bplot['boxes'], colors):
         patch.set_facecolor(color)
     for median in bplot['medians']:
@@ -341,31 +385,38 @@ def food_web_result_plots(Data_Folder, Results_Folders, ids_to_skip, out_stem, t
             ct+=1
     # Significant differences:
     # Code adapted from - https://rowannicholls.github.io/python/graphs/ax_based/boxplots_significance.html
-    # Structure vs. attribute
-    level = y_bar_levels[0]
-    bar_height = bar_y_init + level*level_adjust
-    bar_tips = bar_height + bar_tip_y_adjust
-    print(bar_height)
-    plt.plot([2, 2, 3, 3],[bar_tips, bar_height, bar_height, bar_tips], lw=1, c='k')
-    text_height = bar_height + text_y_adjust
-    print(text_height)
-    plt.text((2 + 3) * 0.5, text_height, sig_stars[0], ha='center', va='bottom', c='k', fontsize=FONT_SIZE)
-    # Full vs. attribute
-    level = y_bar_levels[1]
-    bar_height = bar_y_init + level*level_adjust
-    bar_tips = bar_height + bar_tip_y_adjust
-    plt.plot([1, 1, 3, 3],[bar_tips, bar_height, bar_height, bar_tips], lw=1, c='k')
-    text_height = bar_height + text_y_adjust
-    plt.text((1 + 3) * 0.5, text_height, sig_stars[1], ha='center', va='bottom', c='k', fontsize=FONT_SIZE)
+    if include_attrs:
+        # Structure vs. attribute
+        level = y_bar_levels[0]
+        bar_height = bar_y_init + level*level_adjust
+        bar_tips = bar_height + bar_tip_y_adjust
+        print(bar_height)
+        plt.plot([2, 2, 3, 3],[bar_tips, bar_height, bar_height, bar_tips], lw=1, c='k')
+        text_height = bar_height + text_y_adjust
+        print(text_height)
+        plt.text((2 + 3) * 0.5, text_height, sig_stars[0], ha='center', va='bottom', c='k', fontsize=FONT_SIZE)
+        # Full vs. attribute
+        level = y_bar_levels[1]
+        bar_height = bar_y_init + level*level_adjust
+        bar_tips = bar_height + bar_tip_y_adjust
+        plt.plot([1, 1, 3, 3],[bar_tips, bar_height, bar_height, bar_tips], lw=1, c='k')
+        text_height = bar_height + text_y_adjust
+        plt.text((1 + 3) * 0.5, text_height, sig_stars[1], ha='center', va='bottom', c='k', fontsize=FONT_SIZE)
+        res_ind = 2
+    else:
+        res_ind = 0 
     # Full vs. structure
     level = y_bar_levels[2]
     bar_height = bar_y_init + level*level_adjust
     bar_tips = bar_height + bar_tip_y_adjust
     plt.plot([1, 1, 2, 2],[bar_tips, bar_height, bar_height, bar_tips], lw=1, c='k')
     text_height = bar_height + text_y_adjust
-    plt.text((1 + 2) * 0.5, text_height, sig_stars[2], ha='center', va='bottom', c='k', fontsize=FONT_SIZE)
+    plt.text((1 + 2) * 0.5, text_height, sig_stars[res_ind], ha='center', va='bottom', c='k', fontsize=FONT_SIZE)
     plt.ylabel(f"{type2}-AUC",fontsize=FONT_SIZE)
-    plt.setp(axes, xticks=[1,2,3], xticklabels=['Full', 'Structure', 'Attribute']) 
+    if include_attrs:
+        plt.setp(axes, xticks=[1,2,3], xticklabels=['Full', 'Structure', 'Attribute']) 
+    else:
+        plt.setp(axes, xticks=[1,2], xticklabels=['Full', 'Structure']) 
     plt.xticks(fontsize=FONT_SIZE)
     plt.yticks(fontsize=FONT_SIZE)
 
@@ -540,6 +591,106 @@ def visualize_importance(imp_file, feature_set, x_lab, top_n, y_ticks, ttl, FONT
         legend_elements = [Line2D([0], [0], linewidth=30, marker='.', markersize=22,color=full_color, mfc='k', mec='k', label='Full'),
                Line2D([0], [0], linewidth=30, marker='1', markersize=22, markeredgewidth=2, color=struc_color, mfc='k', mec='k',label='Structure'),
                Line2D([0], [0], linewidth=30, marker='2', markersize=22,markeredgewidth=2, color=attr_color, mfc='k', mec='k',label='Attribute')]
+        plt.legend(handles=legend_elements, loc='lower center', ncol=1, bbox_to_anchor=(0.5,legend_y_adjust), fontsize=FONT_SIZE, borderpad=0.6)
+    if ttl:
+        plt.title(ttl,fontsize=FONT_SIZE)
+
+'''
+Helper function to visualize the aggregated feature importance results
+
+Parameters:
+imp_file - feature importance summary file to read results from
+feature_set - the set of features to visualize results for
+x_lab - x label
+top_n - number of top features to show out of the feature set
+y_ticks - if False don't show y ticks
+ttl - plot title if provided
+FONT_SIZE - font size for the plot
+x_lab_adjusts - small adjustments for visualizing the feature type symbols
+legend_y_adjust - small adjustment for placing the legend
+show_legend - whether to show a legend
+mksiz1 - marker size for the feature type symbols
+full_color - color for the full model results
+struc_color - color for the structure model results
+attr_color - color for the attribute model results
+feature_types - corresponding types for the features
+display_dict - maps display names for all the features
+
+Returns:
+No returns both plots the aggreagated feature importance plot as specified
+'''
+def visualize_importance_box(imp_file, feature_set, x_lab, top_n, y_ticks, ttl, FONT_SIZE, x_lab_adjusts, legend_y_adjust, show_legend, mksiz1,\
+                         full_color,struc_color,attr_color, feature_types, display_dict):
+    # More detailed results
+    imp_res = {}
+    for feat in feature_set:
+        imp_res[feat] = []
+    for i in range(0,290):
+        if os.path.exists(f"{imp_file}_{i}.csv"):
+            imp_df = pd.read_csv(f"{imp_file}_{i}.csv")
+            imp_mask = imp_df['feature'].isin(feature_set)
+            imp_df = imp_df[imp_mask]
+            temp_dict = {}
+            for k, v in zip(imp_df['feature'], imp_df['importance']):
+                temp_dict[k] = v
+            for feat in feature_set:
+                if feat in temp_dict:
+                    imp_res[feat].append(temp_dict[feat])
+                else:
+                    imp_res[feat].append(np.nan)
+    # Overall aggregated ranking
+    overall_imp_df = pd.read_csv(f"{imp_file}_overall.csv")
+    overall_imp_mask = overall_imp_df['feature'].isin(feature_set)
+    overall_imp_df = overall_imp_df[overall_imp_mask]
+    overall_imp_df.sort_values('importance', ascending=False, inplace=True)
+
+    feature_labels = overall_imp_df['feature'].tolist()
+    bar_colors = []
+    hatches = []
+    for feat in feature_labels:
+        if feat in feature_types and feature_types[feat] == 'structure':
+            bar_colors.append(struc_color)
+            hatches.append('/')
+        elif feat in feature_types and feature_types[feat] == 'full':
+            bar_colors.append(full_color)
+            hatches.append(None)
+        else:
+            bar_colors.append(attr_color)
+            hatches.append('\\')
+    # only show first n
+    if top_n:
+        feat_set_len = len(feature_set)
+        if feat_set_len > top_n:
+            feature_set = feature_set[0:top_n]
+            feature_labels = feature_labels[0:top_n]
+            bar_colors = bar_colors[0:top_n]
+    print(bar_colors)
+
+    # Create dataframe to make boxplot - each column is a box
+    print(imp_res)
+    box_imp_df = pd.DataFrame(imp_res)
+    box_imp_df = box_imp_df[feature_labels]
+    feature_labels = [display_dict[x] for x in feature_labels]
+
+    axes = plt.gca()
+    bplot = axes.boxplot(box_imp_df, patch_artist=True, vert=False, labels=feature_labels)
+
+    for patch, color in zip(bplot['boxes'], bar_colors):
+        patch.set_facecolor(color)
+    for patch, hatch in zip(bplot['boxes'], hatches):
+        patch.set_hatch(hatch)
+    for median in bplot['medians']:
+        median.set_color('black')
+    if not y_ticks:
+        plt.gca().set_yticklabels([])
+    plt.xticks(rotation=90, fontsize=FONT_SIZE)
+    plt.yticks(fontsize=FONT_SIZE)
+    plt.xlabel(x_lab, fontsize=FONT_SIZE)
+    plt.gca().invert_yaxis() # make the features descending rather than ascending by importance vertically
+    if show_legend:
+        legend_elements = mpatches.Polygon([[0,1],[1,3],[2,2],[3,4]], color=full_color, label='Full'),\
+               mpatches.Polygon([[0,1],[1,3],[2,2],[3,4]], facecolor=struc_color, hatch="/", label='Structure'),\
+               mpatches.Polygon([[0,1],[1,3],[2,2],[3,4]], facecolor=attr_color, hatch="\\", label='Attribute')
         plt.legend(handles=legend_elements, loc='lower center', ncol=1, bbox_to_anchor=(0.5,legend_y_adjust), fontsize=FONT_SIZE, borderpad=0.6)
     if ttl:
         plt.title(ttl,fontsize=FONT_SIZE)
