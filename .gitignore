@@ -24,3 +24,5 @@ Synthetic_Networks/Synth_Nets_Directed_Assortative/
 Synthetic_Networks/Synth_Nets_Directed_Disassortative/
 Synthetic_Networks/Figures/
 
+!Real_Networks/Processed_Data_Disaggregated_Lifestage/fw_attr_types.pickle
+!Real_Networks/Processed_Data_Disaggregated_Lifestage/fw_ids.pickle
