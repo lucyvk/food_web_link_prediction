@@ -1303,7 +1303,7 @@ def topol_stacking_attr_food_web(edges_orig_path, node_attr_path, out_name="", i
             ** IMPORTANT -- Edges are assumed to be in a RANDOM order to be split into folds **
             ** They must be randomized BEFORE passing the edge list into this function **
             ** If comparing models use the same order for the edge list across models to have the same 5 folds**
-            edges are assumed to be listed in to->from (resource, consumer) order in the edge list
+            edges are assumed to be listed in from->to (resource, consumer) order in the edge list
                 e.g.
                     1 2
                     5 7
@@ -1313,9 +1313,9 @@ def topol_stacking_attr_food_web(edges_orig_path, node_attr_path, out_name="", i
             the first line is a header with the attribute names
                 e.g.
                     id attr_1 attr_2
-                    1  0.5    0
-                    2  0.7    1
-                    3  0.2    0        
+                    0  0.5    0
+                    1  0.7    1
+                    2  0.2    0        
     
     Optional parameters: 
         out_name 
@@ -1331,7 +1331,7 @@ def topol_stacking_attr_food_web(edges_orig_path, node_attr_path, out_name="", i
                 in the case of True, a hold out network is constructed from the network to evaluate performance
                 in the case of False, predictions are outputted for non-edges in the provided network and the performance is not evaluated
         attr_types
-            list of 0/1 values representing whether each attribute is numeric (vs. binary), default is None
+            list of 0/1 values representing whether each attribute is binary (0) or numeric (1), default is None
                 e.g. [0,0,0,1] would indicate the first three attributes are binary and the final attribute is numeric
         extra_links
             whether to include all links as examples in the training set
