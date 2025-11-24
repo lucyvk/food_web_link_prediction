@@ -1,0 +1,793 @@
+,food.web,eco.type,node,genus,taxonomy.level,mov.type,met.type,new.mass,species.other,genus.other,met.mov.same,met.same,mov.same,met.other,mov.other
+0,AEW01,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.0019722305462962966,0,0,1,0,0,0,0
+1,AEW02,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.006594783157142858,0,0,1,0,0,0,0
+2,AEW03,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.026766575853211003,0,0,1,0,0,0,0
+3,AEW04,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.0927150990892857,0,0,1,0,0,0,0
+4,AEW05,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.04972079730088497,0,0,1,0,0,0,0
+5,AEW06,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.10282410454205607,0,0,1,0,0,0,0
+6,AEW07,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.035112351482758625,0,0,1,0,0,0,0
+7,AEW08,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.10144148022764228,0,0,1,0,0,0,0
+8,AEW09,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.06605736263636365,0,0,1,0,0,0,0
+9,AEW11,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.005071449579439254,0,0,1,0,0,0,0
+10,AEW17,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.06637238458333333,0,0,1,0,0,0,0
+11,AEW18,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.0018498364285714287,0,0,1,0,0,0,0
+12,AEW25,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.04297043458181818,0,0,1,0,0,0,0
+13,AEW27,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.017146851887850468,0,0,1,0,0,0,0
+14,AEW30,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.0804483579108911,0,0,1,0,0,0,0
+15,AEW49,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.029092776539007093,0,0,1,0,0,0,0
+16,HEW01,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.08841131207438017,0,0,1,0,0,0,0
+17,HEW02,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.04240067975221239,0,0,1,0,0,0,0
+18,HEW03,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.019806524618181817,0,0,1,0,0,0,0
+19,HEW04,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.03749825014563106,0,0,1,0,0,0,0
+20,HEW05,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.029981647109677424,0,0,1,0,0,0,0
+21,HEW06,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.052466681813953496,0,0,1,0,0,0,0
+22,HEW10,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.04348757467948718,0,0,1,0,0,0,0
+23,HEW11,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.09186284179831934,0,0,1,0,0,0,0
+24,HEW12,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.012690721876923078,0,0,1,0,0,0,0
+25,HEW13,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.04846486135877861,0,0,1,0,0,0,0
+26,HEW16,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.0742011934957983,0,0,1,0,0,0,0
+27,HEW17,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.058243663992063495,0,0,1,0,0,0,0
+28,HEW21,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.0421975747368421,0,0,1,0,0,0,0
+29,HEW22,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.07495633237096774,0,0,1,0,0,0,0
+30,HEW36,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.034519428374149654,0,0,1,0,0,0,0
+31,HEW47,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.021454234637037037,0,0,1,0,0,0,0
+32,SEW01,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.006918799296703299,0,0,1,0,0,0,0
+33,SEW02,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.0095469354625,0,0,1,0,0,0,0
+34,SEW03,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.010438587981651376,0,0,1,0,0,0,0
+35,SEW04,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.016931146392523366,0,0,1,0,0,0,0
+36,SEW05,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.015064548499999999,0,0,1,0,0,0,0
+37,SEW06,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.007531387736842105,0,0,1,0,0,0,0
+38,SEW07,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.016873663529411765,0,0,1,0,0,0,0
+39,SEW08,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.03198670045714286,0,0,1,0,0,0,0
+40,SEW09,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.009049878197368423,0,0,1,0,0,0,0
+41,SEW18,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.007711754845454546,0,0,1,0,0,0,0
+42,SEW35,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.018647944454545453,0,0,1,0,0,0,0
+43,SEW36,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.017939383855263155,0,0,1,0,0,0,0
+44,SEW37,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.03348845585714286,0,0,1,0,0,0,0
+45,SEW41,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.009856793342857141,0,0,1,0,0,0,0
+46,SEW43,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.009732744457943924,0,0,1,0,0,0,0
+47,SEW48,terrestrial belowground,Enchytraeidae_NA,Enchytraeidae_NA,family+,walking,invertebrate,0.007593866485714286,0,0,1,0,0,0,0
+48,Chilean Intertidal Curaumilla,marine,adenocystis utricularis_NA,adenocystis,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+49,Chilean Intertidal Curaumilla,marine,ahnfeltiopsis spp._NA,ahnfeltiopsis,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+50,Chilean Intertidal Curaumilla,marine,bryopsis_spp_NA,bryopsis_spp_NA,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+51,Chilean Intertidal Curaumilla,marine,centroceras spp._NA,centroceras,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+52,Chilean Intertidal Curaumilla,marine,ceramium spp._NA,ceramium,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+53,Chilean Intertidal Curaumilla,marine,chaetomorpha_spp_NA,chaetomorpha_spp_NA,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+54,Chilean Intertidal Curaumilla,marine,chondrus  canaliculatus_NA,chondrus,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+55,Chilean Intertidal Curaumilla,marine,cladophora spp._NA,cladophora,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+56,Chilean Intertidal Curaumilla,marine,codium dimorpha_NA,codium,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+57,Chilean Intertidal Curaumilla,marine,colpomenia phaeodactyla_NA,colpomenia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+58,Chilean Intertidal Curaumilla,marine,colpomenia sinuosa_NA,colpomenia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+59,Chilean Intertidal Curaumilla,marine,corallina offcinalis var. chilensis_NA,corallina,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+60,Chilean Intertidal Curaumilla,marine,durvillaea antarctica_NA,durvillaea,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+61,Chilean Intertidal Curaumilla,marine,ectocarpus silicosus_NA,ectocarpus,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+62,Chilean Intertidal Curaumilla,marine,enteromorpha compressa_NA,enteromorpha,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+63,Chilean Intertidal Curaumilla,marine,gelidium rex_NA,gelidium,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+64,Chilean Intertidal Curaumilla,marine,Gelidium chilensis_NA,Gelidium,genus,sessile,primary producer,0.00021171432392857138,0,1,0,0,0,0,0
+65,Chilean Intertidal Curaumilla,marine,glossophora kunthii_NA,glossophora,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+66,Chilean Intertidal Curaumilla,marine,grateloupia _NA,grateloupia,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+67,Chilean Intertidal Curaumilla,marine,gymnogongrus furcellatus_NA,gymnogongrus,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+68,Chilean Intertidal Curaumilla,marine,halopteris funicularis_NA,halopteris,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+69,Chilean Intertidal Curaumilla,marine,hildenbrandia lecanelieri_NA,hildenbrandia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+70,Chilean Intertidal Curaumilla,marine,laurencia chilensis_NA,laurencia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+71,Chilean Intertidal Curaumilla,marine,lessonia nigrescens_NA,lessonia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+72,Chilean Intertidal Curaumilla,marine,mazzaella laminarioides_NA,mazzaella,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+73,Chilean Intertidal Curaumilla,marine,montemaria horridula_NA,montemaria,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+74,Chilean Intertidal Curaumilla,marine,lithothamnion spp._NA,lithothamnion,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+75,Chilean Intertidal Curaumilla,marine,Nothogenia fastigiata_NA,Nothogenia,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+76,Chilean Intertidal Curaumilla,marine,petalonia fascia_NA,petalonia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+77,Chilean Intertidal Curaumilla,marine,petroglossum spp._NA,petroglossum,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+78,Chilean Intertidal Curaumilla,marine,peysonella spp._NA,peysonella,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+79,Chilean Intertidal Curaumilla,marine,plocamium cartilageneum_NA,plocamium,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+80,Chilean Intertidal Curaumilla,marine,polysiphonia_spp_NA,polysiphonia_spp_NA,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+81,Chilean Intertidal Curaumilla,marine,porphyra_spp_NA,porphyra_spp_NA,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+82,Chilean Intertidal Curaumilla,marine,Prionitis decipiens_NA,Prionitis,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+83,Chilean Intertidal Curaumilla,marine,ralfsia spp._NA,ralfsia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+84,Chilean Intertidal Curaumilla,marine,rama novazelandensis_NA,rama,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+85,Chilean Intertidal Curaumilla,marine,rhizoclonium cilindricum_NA,rhizoclonium,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+86,Chilean Intertidal Curaumilla,marine,Rhodymenia skottsbergii_NA,Rhodymenia,genus,sessile,primary producer,0.00022799999999999996,0,1,0,0,0,0,0
+87,Chilean Intertidal Curaumilla,marine,Sarcothalia crispata_NA,Sarcothalia,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+88,Chilean Intertidal Curaumilla,marine,schottera nicaensis_NA,schottera,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+89,Chilean Intertidal Curaumilla,marine,schyzimenia doryophora_NA,schyzimenia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+90,Chilean Intertidal Curaumilla,marine,scythosiphon lomentaria_NA,scythosiphon,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+91,Chilean Intertidal Curaumilla,marine,Trematocarpus dichotomus_NA,Trematocarpus,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+92,Chilean Intertidal Curaumilla,marine,ulva rigida_NA,ulva,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+93,Chilean Intertidal Curaumilla,marine,ulvella spp._NA,ulvella,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+94,Chilean Intertidal Curaumilla,marine,petrolisthes punctatus_adults,petrolisthes,species,walking,invertebrate,11.547752941176473,0,0,1,0,0,0,0
+95,Chilean Intertidal Curaumilla,marine,petrolisthes spinifrons_adults,petrolisthes,species,walking,invertebrate,11.547752941176473,0,0,1,0,0,0,0
+96,Chilean Intertidal Curaumilla,marine,petrolisthes angulosus_adults,petrolisthes,species,walking,invertebrate,11.547752941176473,0,0,1,0,0,0,0
+97,Chilean Intertidal Curaumilla,marine,petrolisthes tuberculatus_adults,petrolisthes,species,walking,invertebrate,11.547752941176473,0,0,1,0,0,0,0
+98,Chilean Intertidal Curaumilla,marine,trimusculus peruvianus_adults,trimusculus,species,walking,invertebrate,11.547752941176473,0,0,1,0,0,0,0
+99,Chilean Intertidal El Quisco,marine,adenocystis utricularis_NA,adenocystis,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+100,Chilean Intertidal El Quisco,marine,ahnfeltiopsis spp._NA,ahnfeltiopsis,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+101,Chilean Intertidal El Quisco,marine,bryopsis_spp_NA,bryopsis_spp_NA,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+102,Chilean Intertidal El Quisco,marine,centroceras spp._NA,centroceras,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+103,Chilean Intertidal El Quisco,marine,ceramium spp._NA,ceramium,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+104,Chilean Intertidal El Quisco,marine,chaetomorpha_spp_NA,chaetomorpha_spp_NA,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+105,Chilean Intertidal El Quisco,marine,chondrus  canaliculatus_NA,chondrus,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+106,Chilean Intertidal El Quisco,marine,cladophora spp._NA,cladophora,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+107,Chilean Intertidal El Quisco,marine,codium dimorpha_NA,codium,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+108,Chilean Intertidal El Quisco,marine,colpomenia phaeodactyla_NA,colpomenia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+109,Chilean Intertidal El Quisco,marine,colpomenia sinuosa_NA,colpomenia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+110,Chilean Intertidal El Quisco,marine,corallina offcinalis var. chilensis_NA,corallina,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+111,Chilean Intertidal El Quisco,marine,durvillaea antarctica_NA,durvillaea,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+112,Chilean Intertidal El Quisco,marine,ectocarpus silicosus_NA,ectocarpus,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+113,Chilean Intertidal El Quisco,marine,enteromorpha compressa_NA,enteromorpha,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+114,Chilean Intertidal El Quisco,marine,gelidium rex_NA,gelidium,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+115,Chilean Intertidal El Quisco,marine,Gelidium chilensis_NA,Gelidium,genus,sessile,primary producer,0.00021171432392857138,0,1,0,0,0,0,0
+116,Chilean Intertidal El Quisco,marine,glossophora kunthii_NA,glossophora,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+117,Chilean Intertidal El Quisco,marine,grateloupia _NA,grateloupia,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+118,Chilean Intertidal El Quisco,marine,gymnogongrus furcellatus_NA,gymnogongrus,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+119,Chilean Intertidal El Quisco,marine,halopteris funicularis_NA,halopteris,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+120,Chilean Intertidal El Quisco,marine,hildenbrandia lecanelieri_NA,hildenbrandia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+121,Chilean Intertidal El Quisco,marine,laurencia chilensis_NA,laurencia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+122,Chilean Intertidal El Quisco,marine,lessonia nigrescens_NA,lessonia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+123,Chilean Intertidal El Quisco,marine,mazzaella laminarioides_NA,mazzaella,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+124,Chilean Intertidal El Quisco,marine,montemaria horridula_NA,montemaria,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+125,Chilean Intertidal El Quisco,marine,lithothamnion spp._NA,lithothamnion,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+126,Chilean Intertidal El Quisco,marine,Nothogenia fastigiata_NA,Nothogenia,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+127,Chilean Intertidal El Quisco,marine,petalonia fascia_NA,petalonia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+128,Chilean Intertidal El Quisco,marine,petroglossum spp._NA,petroglossum,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+129,Chilean Intertidal El Quisco,marine,peysonella spp._NA,peysonella,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+130,Chilean Intertidal El Quisco,marine,plocamium cartilageneum_NA,plocamium,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+131,Chilean Intertidal El Quisco,marine,polysiphonia_spp_NA,polysiphonia_spp_NA,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+132,Chilean Intertidal El Quisco,marine,porphyra_spp_NA,porphyra_spp_NA,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+133,Chilean Intertidal El Quisco,marine,Prionitis decipiens_NA,Prionitis,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+134,Chilean Intertidal El Quisco,marine,ralfsia spp._NA,ralfsia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+135,Chilean Intertidal El Quisco,marine,rama novazelandensis_NA,rama,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+136,Chilean Intertidal El Quisco,marine,rhizoclonium cilindricum_NA,rhizoclonium,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+137,Chilean Intertidal El Quisco,marine,Rhodymenia skottsbergii_NA,Rhodymenia,genus,sessile,primary producer,0.00022799999999999996,0,1,0,0,0,0,0
+138,Chilean Intertidal El Quisco,marine,Sarcothalia crispata_NA,Sarcothalia,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+139,Chilean Intertidal El Quisco,marine,schottera nicaensis_NA,schottera,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+140,Chilean Intertidal El Quisco,marine,schyzimenia doryophora_NA,schyzimenia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+141,Chilean Intertidal El Quisco,marine,scythosiphon lomentaria_NA,scythosiphon,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+142,Chilean Intertidal El Quisco,marine,Trematocarpus dichotomus_NA,Trematocarpus,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+143,Chilean Intertidal El Quisco,marine,ulva rigida_NA,ulva,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+144,Chilean Intertidal El Quisco,marine,ulvella spp._NA,ulvella,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+145,Chilean Intertidal El Quisco,marine,trimusculus peruvianus_adults,trimusculus,species,walking,invertebrate,11.21801142857143,0,0,1,0,0,0,0
+146,Chilean Intertidal Las Cruces,marine,Sarcothalia crispata_NA,Sarcothalia,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+147,Chilean Intertidal Las Cruces,marine,adenocystis utricularis_NA,adenocystis,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+148,Chilean Intertidal Las Cruces,marine,ahnfeltiopsis spp._NA,ahnfeltiopsis,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+149,Chilean Intertidal Las Cruces,marine,bryopsis_spp_NA,bryopsis_spp_NA,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+150,Chilean Intertidal Las Cruces,marine,centroceras spp._NA,centroceras,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+151,Chilean Intertidal Las Cruces,marine,ceramium spp._NA,ceramium,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+152,Chilean Intertidal Las Cruces,marine,chaetomorpha_spp_NA,chaetomorpha_spp_NA,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+153,Chilean Intertidal Las Cruces,marine,chondrus  canaliculatus_NA,chondrus,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+154,Chilean Intertidal Las Cruces,marine,cladophora spp._NA,cladophora,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+155,Chilean Intertidal Las Cruces,marine,codium dimorpha_NA,codium,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+156,Chilean Intertidal Las Cruces,marine,colpomenia phaeodactyla_NA,colpomenia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+157,Chilean Intertidal Las Cruces,marine,colpomenia sinuosa_NA,colpomenia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+158,Chilean Intertidal Las Cruces,marine,corallina offcinalis var. chilensis_NA,corallina,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+159,Chilean Intertidal Las Cruces,marine,durvillaea antarctica_NA,durvillaea,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+160,Chilean Intertidal Las Cruces,marine,ectocarpus silicosus_NA,ectocarpus,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+161,Chilean Intertidal Las Cruces,marine,enteromorpha compressa_NA,enteromorpha,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+162,Chilean Intertidal Las Cruces,marine,gelidium rex_NA,gelidium,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+163,Chilean Intertidal Las Cruces,marine,Gelidium chilensis_NA,Gelidium,genus,sessile,primary producer,0.00021171432392857138,0,1,0,0,0,0,0
+164,Chilean Intertidal Las Cruces,marine,glossophora kunthii_NA,glossophora,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+165,Chilean Intertidal Las Cruces,marine,grateloupia _NA,grateloupia,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+166,Chilean Intertidal Las Cruces,marine,gymnogongrus furcellatus_NA,gymnogongrus,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+167,Chilean Intertidal Las Cruces,marine,halopteris funicularis_NA,halopteris,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+168,Chilean Intertidal Las Cruces,marine,hildenbrandia lecanelieri_NA,hildenbrandia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+169,Chilean Intertidal Las Cruces,marine,laurencia chilensis_NA,laurencia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+170,Chilean Intertidal Las Cruces,marine,lessonia nigrescens_NA,lessonia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+171,Chilean Intertidal Las Cruces,marine,mazzaella laminarioides_NA,mazzaella,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+172,Chilean Intertidal Las Cruces,marine,montemaria horridula_NA,montemaria,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+173,Chilean Intertidal Las Cruces,marine,lithothamnion spp._NA,lithothamnion,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+174,Chilean Intertidal Las Cruces,marine,Nothogenia fastigiata_NA,Nothogenia,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+175,Chilean Intertidal Las Cruces,marine,petalonia fascia_NA,petalonia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+176,Chilean Intertidal Las Cruces,marine,petroglossum spp._NA,petroglossum,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+177,Chilean Intertidal Las Cruces,marine,peysonella spp._NA,peysonella,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+178,Chilean Intertidal Las Cruces,marine,plocamium cartilageneum_NA,plocamium,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+179,Chilean Intertidal Las Cruces,marine,polysiphonia_spp_NA,polysiphonia_spp_NA,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+180,Chilean Intertidal Las Cruces,marine,porphyra_spp_NA,porphyra_spp_NA,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+181,Chilean Intertidal Las Cruces,marine,Prionitis decipiens_NA,Prionitis,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+182,Chilean Intertidal Las Cruces,marine,ralfsia spp._NA,ralfsia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+183,Chilean Intertidal Las Cruces,marine,rama novazelandensis_NA,rama,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+184,Chilean Intertidal Las Cruces,marine,rhizoclonium cilindricum_NA,rhizoclonium,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+185,Chilean Intertidal Las Cruces,marine,schottera nicaensis_NA,schottera,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+186,Chilean Intertidal Las Cruces,marine,schyzimenia doryophora_NA,schyzimenia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+187,Chilean Intertidal Las Cruces,marine,scythosiphon lomentaria_NA,scythosiphon,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+188,Chilean Intertidal Las Cruces,marine,Trematocarpus dichotomus_NA,Trematocarpus,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+189,Chilean Intertidal Las Cruces,marine,ulva rigida_NA,ulva,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+190,Chilean Intertidal Las Cruces,marine,ulvella spp._NA,ulvella,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+191,Chilean Intertidal Las Cruces,marine,petrolisthes punctatus_adults,petrolisthes,species,walking,invertebrate,11.21801142857143,0,0,1,0,0,0,0
+192,Chilean Intertidal Las Cruces,marine,petrolisthes spinifrons_adults,petrolisthes,species,walking,invertebrate,11.21801142857143,0,0,1,0,0,0,0
+193,Chilean Intertidal Las Cruces,marine,petrolisthes angulosus_adults,petrolisthes,species,walking,invertebrate,11.21801142857143,0,0,1,0,0,0,0
+194,Chilean Intertidal Las Cruces,marine,petrolisthes tuberculatus_adults,petrolisthes,species,walking,invertebrate,11.21801142857143,0,0,1,0,0,0,0
+195,Chilean Intertidal Las Cruces,marine,petrolisthes tuberculosus_adults,petrolisthes,species,walking,invertebrate,11.21801142857143,0,0,1,0,0,0,0
+196,Chilean Intertidal Las Cruces,marine,trimusculus peruvianus_adults,trimusculus,species,walking,invertebrate,11.21801142857143,0,0,1,0,0,0,0
+197,Chilean Intertidal Los Molles,marine,adenocystis utricularis_NA,adenocystis,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+198,Chilean Intertidal Los Molles,marine,ahnfeltiopsis spp._NA,ahnfeltiopsis,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+199,Chilean Intertidal Los Molles,marine,bryopsis_spp_NA,bryopsis_spp_NA,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+200,Chilean Intertidal Los Molles,marine,centroceras spp._NA,centroceras,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+201,Chilean Intertidal Los Molles,marine,ceramium spp._NA,ceramium,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+202,Chilean Intertidal Los Molles,marine,chaetomorpha_spp_NA,chaetomorpha_spp_NA,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+203,Chilean Intertidal Los Molles,marine,chondrus  canaliculatus_NA,chondrus,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+204,Chilean Intertidal Los Molles,marine,cladophora spp._NA,cladophora,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+205,Chilean Intertidal Los Molles,marine,codium dimorpha_NA,codium,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+206,Chilean Intertidal Los Molles,marine,colpomenia phaeodactyla_NA,colpomenia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+207,Chilean Intertidal Los Molles,marine,colpomenia sinuosa_NA,colpomenia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+208,Chilean Intertidal Los Molles,marine,corallina offcinalis var. chilensis_NA,corallina,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+209,Chilean Intertidal Los Molles,marine,durvillaea antarctica_NA,durvillaea,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+210,Chilean Intertidal Los Molles,marine,ectocarpus silicosus_NA,ectocarpus,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+211,Chilean Intertidal Los Molles,marine,enteromorpha compressa_NA,enteromorpha,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+212,Chilean Intertidal Los Molles,marine,gelidium rex_NA,gelidium,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+213,Chilean Intertidal Los Molles,marine,Gelidium chilensis_NA,Gelidium,genus,sessile,primary producer,0.00021171432392857138,0,1,0,0,0,0,0
+214,Chilean Intertidal Los Molles,marine,glossophora kunthii_NA,glossophora,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+215,Chilean Intertidal Los Molles,marine,grateloupia _NA,grateloupia,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+216,Chilean Intertidal Los Molles,marine,gymnogongrus furcellatus_NA,gymnogongrus,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+217,Chilean Intertidal Los Molles,marine,halopteris funicularis_NA,halopteris,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+218,Chilean Intertidal Los Molles,marine,hildenbrandia lecanelieri_NA,hildenbrandia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+219,Chilean Intertidal Los Molles,marine,laurencia chilensis_NA,laurencia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+220,Chilean Intertidal Los Molles,marine,lessonia nigrescens_NA,lessonia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+221,Chilean Intertidal Los Molles,marine,mazzaella laminarioides_NA,mazzaella,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+222,Chilean Intertidal Los Molles,marine,montemaria horridula_NA,montemaria,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+223,Chilean Intertidal Los Molles,marine,lithothamnion spp._NA,lithothamnion,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+224,Chilean Intertidal Los Molles,marine,Nothogenia fastigiata_NA,Nothogenia,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+225,Chilean Intertidal Los Molles,marine,petalonia fascia_NA,petalonia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+226,Chilean Intertidal Los Molles,marine,petroglossum spp._NA,petroglossum,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+227,Chilean Intertidal Los Molles,marine,peysonella spp._NA,peysonella,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+228,Chilean Intertidal Los Molles,marine,polysiphonia_spp_NA,polysiphonia_spp_NA,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+229,Chilean Intertidal Los Molles,marine,porphyra_spp_NA,porphyra_spp_NA,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+230,Chilean Intertidal Los Molles,marine,Prionitis decipiens_NA,Prionitis,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+231,Chilean Intertidal Los Molles,marine,ralfsia spp._NA,ralfsia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+232,Chilean Intertidal Los Molles,marine,rama novazelandensis_NA,rama,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+233,Chilean Intertidal Los Molles,marine,rhizoclonium cilindricum_NA,rhizoclonium,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+234,Chilean Intertidal Los Molles,marine,Rhodymenia skottsbergii_NA,Rhodymenia,genus,sessile,primary producer,0.00022799999999999996,0,1,0,0,0,0,0
+235,Chilean Intertidal Los Molles,marine,Sarcothalia crispata_NA,Sarcothalia,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+236,Chilean Intertidal Los Molles,marine,schottera nicaensis_NA,schottera,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+237,Chilean Intertidal Los Molles,marine,schyzimenia doryophora_NA,schyzimenia,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+238,Chilean Intertidal Los Molles,marine,scythosiphon lomentaria_NA,scythosiphon,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+239,Chilean Intertidal Los Molles,marine,Trematocarpus dichotomus_NA,Trematocarpus,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+240,Chilean Intertidal Los Molles,marine,ulva rigida_NA,ulva,species,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+241,Chilean Intertidal Los Molles,marine,ulvella spp._NA,ulvella,genus,sessile,primary producer,1e-05,0,0,0,1,0,0,0
+242,Chilean Intertidal Los Molles,marine,petrolisthes punctatus_adults,petrolisthes,species,walking,invertebrate,11.21801142857143,0,0,1,0,0,0,0
+243,Chilean Intertidal Los Molles,marine,petrolisthes spinifrons_adults,petrolisthes,species,walking,invertebrate,11.21801142857143,0,0,1,0,0,0,0
+244,Chilean Intertidal Los Molles,marine,petrolisthes angulosus_adults,petrolisthes,species,walking,invertebrate,11.21801142857143,0,0,1,0,0,0,0
+245,Chilean Intertidal Los Molles,marine,petrolisthes tuberculatus_adults,petrolisthes,species,walking,invertebrate,11.21801142857143,0,0,1,0,0,0,0
+246,Chilean Intertidal Los Molles,marine,petrolisthes tuberculosus_adults,petrolisthes,species,walking,invertebrate,11.21801142857143,0,0,1,0,0,0,0
+247,Chilean Intertidal Los Molles,marine,trimusculus peruvianus_adults,trimusculus,species,walking,invertebrate,11.21801142857143,0,0,1,0,0,0,0
+248,Chesapeake Bay,marine,Carcinus sp._adults,Carcinus,genus,walking,invertebrate,14.835496681818181,0,1,0,0,0,0,0
+249,Chesapeake Bay,marine,Portunus spinimanus_adults,Portunus,species,walking,invertebrate,20.05,0,1,0,0,0,0,0
+250,Chesapeake Bay,marine,Leptogorgia virgulata_adults,Leptogorgia,species,sessile,invertebrate,4.813984622312121,0,0,1,0,0,0,0
+251,Chesapeake Bay,marine,Leiostomus xanthurus_juveniles,Leiostomus,species,swimming,ectotherm vertebrate,169.41542679999995,0,1,0,0,0,0,0
+252,Chesapeake Bay,marine,Plecoptera_larvae,Plecoptera_larvae,family+,other,invertebrate,56.85587125662628,0,0,0,1,0,0,0
+253,Chesapeake Bay,marine,Trichoptera_larvae,Trichoptera_larvae,unclassified,other,invertebrate,0.0011796885,1,0,0,0,0,0,0
+254,Chesapeake Bay,marine,Chironomidae_larvae,Chironomidae_larvae,family+,swimming,invertebrate,0.00039021020000000006,1,0,0,0,0,0,0
+255,Chesapeake Bay,marine,Paravortex genellipara_adults,Paravortex,species,swimming,invertebrate,0.30483272014974616,0,0,1,0,0,0,0
+256,Carpinteria,terrestrial aboveground,Hemiuridae_cercaria,Hemiuridae_cercaria,family+,other,invertebrate,0.00012118243043478259,0,0,1,0,0,0,0
+257,Carpinteria,terrestrial aboveground,Hysterolecitha trilocalis_cercaria,Hysterolecitha,species,other,invertebrate,0.00012118243043478259,0,0,1,0,0,0,0
+258,Carpinteria,terrestrial aboveground,unk a/sm meso_cercaria,unk,unclassified,other,invertebrate,0.00012118243043478259,0,0,1,0,0,0,0
+259,Carpinteria,terrestrial aboveground,unk c_cercaria,unk,unclassified,other,invertebrate,0.00012118243043478259,0,0,1,0,0,0,0
+260,Carpinteria,terrestrial aboveground,Mytilus galloprovincialis_adults,Mytilus,species,sessile,invertebrate,1.0832186195151516,0,1,0,0,0,0,0
+261,Carpinteria,terrestrial aboveground,Salicornia virginica_adults,Salicornia,species,other,primary producer,0.00012118243043478259,0,0,0,0,1,0,0
+262,Carpinteria,marine,Trematode_cercaria,Trematode_cercaria,unclassified,other,invertebrate,0.00012118243043478259,0,0,1,0,0,0,0
+263,Carpinteria,terrestrial aboveground,Distichlis spicata_adults,Distichlis,species,other,primary producer,0.00012118243043478259,0,0,0,0,1,0,0
+264,Carpinteria,terrestrial aboveground,Frankenia salina_adults,Frankenia,species,sessile,primary producer,23.791129908333332,0,0,0,0,1,0,0
+265,Carpinteria,terrestrial aboveground,Jaumea carnosa_adults,Jaumea,species,sessile,primary producer,23.791129908333332,0,0,0,0,1,0,0
+266,Carpinteria,terrestrial aboveground,Limonium californicum_adults,Limonium,species,sessile,primary producer,23.791129908333332,0,0,0,0,1,0,0
+267,Carpinteria,terrestrial aboveground,Monanthocloe littoralis_adults,Monanthocloe,species,sessile,primary producer,23.791129908333332,0,0,0,0,1,0,0
+268,Carpinteria,terrestrial aboveground,Cordylanthus maritimus_adults,Cordylanthus,species,sessile,primary producer,23.791129908333332,0,0,0,0,1,0,0
+269,Scottish Lake,lakes,Fragilaria vaucheriae_other,Fragilaria,species,sessile,primary producer,1.003299375e-08,0,1,0,0,0,0,0
+270,Scottish Lake,lakes,Fragilaria virescens_other,Fragilaria,species,sessile,primary producer,1.003299375e-08,0,1,0,0,0,0,0
+271,Scottish Lake,lakes,Frustulia rhomboides var saxonica_other,Frustulia,species,sessile,primary producer,7.762499999999999e-10,0,1,0,0,0,0,0
+272,Scottish Lake,lakes,Frustulia rhomboides var viridula_other,Frustulia,species,sessile,primary producer,7.762499999999999e-10,0,1,0,0,0,0,0
+273,Scottish Lake,lakes,Diatoma	sp.	2_other,Diatoma,genus,sessile,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+274,Scottish Lake,lakes,Diatoma	sp.	3_other,Diatoma,genus,sessile,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+275,Scottish Lake,lakes,Diatoma	sp.	6_other,Diatoma,genus,sessile,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+276,Scottish Lake,lakes,Diatoma	sp.	5_other,Diatoma,genus,sessile,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+277,Scottish Lake,lakes,Diatoma hyemale var mesodon_other,Diatoma,species,sessile,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+278,Scottish Lake,lakes,Diatoma	sp.	1_other,Diatoma,genus,sessile,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+279,Scottish Lake,lakes,Diatoma	sp.	4_other,Diatoma,genus,sessile,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+280,Scottish Lake,lakes,Brachysira brebissonii_other,Brachysira,species,sessile,primary producer,5.223666666666666e-09,0,1,0,0,0,0,0
+281,Scottish Lake,lakes,Peronia fibula_other,Peronia,species,sessile,primary producer,5.6475e-10,0,1,0,0,0,0,0
+282,Scottish Lake,lakes,Eunotia incisa_other,Eunotia,species,sessile,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+283,Scottish Lake,lakes,Eunotia curvata_other,Eunotia,species,sessile,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+284,Scottish Lake,lakes,Tabellaria flocculosa_other,Tabellaria,species,sessile,primary producer,1.8589166666666665e-09,0,1,0,0,0,0,0
+285,Scottish Lake,lakes,Aulacoseira distans var nivalis_other,Aulacoseira,species,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+286,Scottish Lake,lakes,Achnanthes austriaca var helvetica_other,Achnanthes,species,sessile,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+287,Scottish Lake,lakes,Achnanthes marginulata_other,Achnanthes,species,sessile,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+288,Scottish Lake,lakes,Eunotia denticulata_other,Eunotia,species,sessile,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+289,Scottish Lake,lakes,Eunotia rhomboidea_other,Eunotia,species,sessile,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+290,Scottish Lake,lakes,Eunotia sp._other,Eunotia,genus,sessile,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+291,Scottish Lake,lakes,Eunotia vanheurckii var intermedia_other,Eunotia,species,sessile,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+292,Scottish Lake,lakes,Diatoma sp. 2_other,Diatoma,genus,sessile,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+293,Scottish Lake,lakes,Diatoma sp. 3_other,Diatoma,genus,sessile,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+294,Scottish Lake,lakes,Diatoma sp. 6_other,Diatoma,genus,sessile,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+295,Scottish Lake,lakes,Diatoma sp. 5_other,Diatoma,genus,sessile,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+296,Scottish Lake,lakes,Diatoma sp. 1_other,Diatoma,genus,sessile,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+297,Scottish Lake,lakes,Diatoma sp. 4_other,Diatoma,genus,sessile,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+298,Scottish Lake,lakes,Fragilaria	vaucheriae_other,Fragilaria,species,sessile,primary producer,1.003299375e-08,0,1,0,0,0,0,0
+299,Gearagh,terrestrial belowground,Anemone nemorosa_NA,Anemone,species,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+300,Gearagh,terrestrial belowground,Osmunda regalis_NA,Osmunda,species,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+301,Gearagh,terrestrial belowground,Ranunculus ficaria_NA,Ranunculus,species,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+302,Gearagh,terrestrial belowground,Ranunculus repens_NA,Ranunculus,species,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+303,Gearagh,terrestrial belowground,Urtica dioica_NA,Urtica,species,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+304,Gearagh,terrestrial belowground,Veronica montana_NA,Veronica,species,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+305,Gearagh,terrestrial belowground,Phylum Bryophyta_NA,Phylum,species,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+306,Gearagh,terrestrial belowground,Fraxinus excelsior_NA,Fraxinus,species,sessile,detritus,8.213925491001998,0,0,0,0,0,0,1
+307,Gearagh,terrestrial belowground,Alnus glutinosa_NA,Alnus,species,sessile,detritus,8.213925491001998,0,0,0,0,0,0,1
+308,Gearagh,terrestrial belowground,Quercus robur_NA,Quercus,species,sessile,detritus,8.213925491001998,0,0,0,0,0,0,1
+309,Dutch Microfauna food web PlotA,terrestrial belowground,Fungal mycelium_active,Fungal,species,sessile,heterotrophic fungi,4.12e-08,0,0,0,0,1,0,0
+310,Dutch Microfauna food web PlotB,terrestrial belowground,Fungal mycelium_active,Fungal,species,sessile,heterotrophic fungi,3.9000000000000005e-08,0,0,0,0,1,0,0
+311,Dutch Microfauna food web PlotC,terrestrial belowground,Fungal mycelium_active,Fungal,species,sessile,heterotrophic fungi,3.9000000000000005e-08,0,0,0,0,1,0,0
+312,Lake Malawi,lakes,Chaoborus edulis_larvae,Chaoborus,unclassified,swimming,invertebrate,10.0,0,0,0,1,0,0,0
+313,Lake Malawi,lakes,Zooplankton_adults,Zooplankton_adults,unclassified,swimming,invertebrate,1.0000000000000002e-08,1,0,0,0,0,0,0
+314,FloridaIslandE1,terrestrial aboveground,Pseudococcus_NA,Pseudococcus_NA,genus,walking,invertebrate,0.08022791531784722,0,0,1,0,0,0,0
+315,FloridaIslandE3,terrestrial aboveground,Pseudococcus_NA,Pseudococcus_NA,genus,walking,invertebrate,0.07970220555703447,0,0,1,0,0,0,0
+316,Blackrock Stream,streams,Achnanthes sp. (small)_NA,Achnanthes,genus,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+317,Blackrock Stream,streams,Cocconeis sp._NA,Cocconeis,genus,floating,primary producer,1.1311310344827583e-08,0,1,0,0,0,0,0
+318,Blackrock Stream,streams,Eunotia sp._NA,Eunotia,genus,floating,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+319,Blackrock Stream,streams,Fragilaria vaucheriae_NA,Fragilaria,species,floating,primary producer,8.796666666666665e-10,1,0,0,0,0,0,0
+320,Blackrock Stream,streams,Navicula bicephala_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+321,Blackrock Stream,streams,Microspora sp._NA,Microspora,genus,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+322,Blackrock Stream,streams,Terrestrial Invertebrates_NA,Terrestrial,unclassified,floating,invertebrate,0.00035790502631578955,0,0,0,1,0,0,0
+323,Blackrock Stream,streams,Achnanthes lanceoloata_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+324,Blackrock Stream,streams,Achnanthes saxonica_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+325,Blackrock Stream,streams,Cymbella aspera_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+326,Blackrock Stream,streams,Gomphonema cf. olivaceum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+327,Blackrock Stream,streams,Gomphonema parvulum_NA,Gomphonema,species,floating,primary producer,1.5312249999999995e-09,1,0,0,0,0,0,0
+328,Blackrock Stream,streams,Gomphonema subclavatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+329,Blackrock Stream,streams,Aucalosira sp._NA,Aucalosira,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+330,Blackrock Stream,streams,Navicula cryptocephala_NA,Navicula,species,floating,primary producer,1.2900000000000003e-08,1,0,0,0,0,0,0
+331,Blackrock Stream,streams,Synedra ulna_NA,Synedra,species,floating,primary producer,2.9008e-09,1,0,0,0,0,0,0
+332,Blackrock Stream,streams,Tabellaria flocculosa_NA,Tabellaria,species,floating,primary producer,2.9634e-09,1,0,0,0,0,0,0
+333,Blackrock Stream,streams,Spirogyra_NA,Spirogyra_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+334,Blackrock Stream,streams,Audouinella_NA,Audouinella_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+335,Blackrock Stream,streams,Cymbella kappii_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+336,Blackrock Stream,streams,Cymbella minuta_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+337,Blackrock Stream,streams,Frustulia rhomboides_NA,Frustulia,species,floating,primary producer,7.762499999999999e-10,0,1,0,0,0,0,0
+338,Blackrock Stream,streams,Meridion circulare_NA,Meridion,species,floating,primary producer,2.2490000000000004e-09,1,0,0,0,0,0,0
+339,Blackrock Stream,streams,Navicula avenacea_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+340,Blackrock Stream,streams,Nitzschia sp. (small)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+341,Blackrock Stream,streams,Pinnularia sp. (large)_NA,Pinnularia,genus,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+342,Blackrock Stream,streams,Surirella (small)_NA,Surirella,genus,floating,primary producer,1.1232500000000001e-08,0,1,0,0,0,0,0
+343,Blackrock Stream,streams,Oedogonium_NA,Oedogonium_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+344,Blackrock Stream,streams,Navicula rhynchocephala_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+345,Blackrock Stream,streams,Nitzschia sp. (large)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+346,Blackrock Stream,streams,Pinnularia (small - mesolepta??)_NA,Pinnularia,genus,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+347,Blackrock Stream,streams,Achnanthes linearis_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+348,Blackrock Stream,streams,Cymbella cuspidata_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+349,Blackrock Stream,streams,Stephanodiscus sp._NA,Stephanodiscus,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+350,Blackrock Stream,streams,Caloneis sp. ?_NA,Caloneis,genus,floating,primary producer,1.3700000000000002e-08,0,1,0,0,0,0,0
+351,Blackrock Stream,streams,Stauroneis sp._NA,Stauroneis,genus,floating,primary producer,1.465e-10,0,1,0,0,0,0,0
+352,Blackrock Stream,streams,Gomphoneis herculeana_NA,Gomphoneis,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+353,Blackrock Stream,streams,Melosira varians_NA,Melosira,species,floating,primary producer,3.830657142857144e-09,1,0,0,0,0,0,0
+354,Blackrock Stream,streams,Cyclotella sp._NA,Cyclotella,genus,floating,primary producer,1.0499999999999997e-10,1,0,0,0,0,0,0
+355,Blackrock Stream,streams,Navicula sp._NA,Navicula,genus,floating,primary producer,9.01e-10,1,0,0,0,0,0,0
+356,Blackrock Stream,streams,Diatoma heimale_NA,Diatoma,species,floating,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+357,Blackrock Stream,streams,Eunotia sp. large_NA,Eunotia,genus,floating,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+358,Blackrock Stream,streams,Rhoicosphenia curvata_NA,Rhoicosphenia,species,floating,primary producer,4.3310714285714285e-09,0,1,0,0,0,0,0
+359,Blackrock Stream,streams,Rhopalodia novae zelandicae_NA,Rhopalodia,species,floating,primary producer,5.0949999999999995e-09,0,1,0,0,0,0,0
+360,Blackrock Stream,streams,Fragilaria spp._NA,Fragilaria,genus,floating,primary producer,1.003299375e-08,0,1,0,0,0,0,0
+361,Broad Stream,streams,Achnanthes lanceoloata_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+362,Broad Stream,streams,Cocconeis sp._NA,Cocconeis,genus,floating,primary producer,1.1311310344827583e-08,0,1,0,0,0,0,0
+363,Broad Stream,streams,Cymbella kappii_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+364,Broad Stream,streams,Cymbella minuta_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+365,Broad Stream,streams,Eunotia sp._NA,Eunotia,genus,floating,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+366,Broad Stream,streams,Fragilaria vaucheriae_NA,Fragilaria,species,floating,primary producer,8.796666666666665e-10,1,0,0,0,0,0,0
+367,Broad Stream,streams,Frustulia rhomboides_NA,Frustulia,species,floating,primary producer,7.762499999999999e-10,0,1,0,0,0,0,0
+368,Broad Stream,streams,Gomphonema cf. olivaceum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+369,Broad Stream,streams,Gomphonema parvulum_NA,Gomphonema,species,floating,primary producer,1.5312249999999995e-09,1,0,0,0,0,0,0
+370,Broad Stream,streams,Gomphonema subclavatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+371,Broad Stream,streams,Aucalosira sp._NA,Aucalosira,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+372,Broad Stream,streams,Meridion circulare_NA,Meridion,species,floating,primary producer,2.2490000000000004e-09,1,0,0,0,0,0,0
+373,Broad Stream,streams,Navicula cryptocephala_NA,Navicula,species,floating,primary producer,1.2900000000000003e-08,1,0,0,0,0,0,0
+374,Broad Stream,streams,Navicula sp._NA,Navicula,genus,floating,primary producer,9.01e-10,1,0,0,0,0,0,0
+375,Broad Stream,streams,Nitzschia sp. (small)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+376,Broad Stream,streams,Ulothrix_NA,Ulothrix_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+377,Broad Stream,streams,Achnanthes linearis_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+378,Broad Stream,streams,Achnanthes saxonica_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+379,Broad Stream,streams,Cyclotella sp._NA,Cyclotella,genus,floating,primary producer,1.0499999999999997e-10,1,0,0,0,0,0,0
+380,Broad Stream,streams,Cymbella aspera_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+381,Broad Stream,streams,Diatoma heimale_NA,Diatoma,species,floating,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+382,Broad Stream,streams,Eunotia sp. large_NA,Eunotia,genus,floating,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+383,Broad Stream,streams,Gomphonema sp. (skinny - tenue??)_NA,Gomphonema,genus,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+384,Broad Stream,streams,Navicula rhynchocephala_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+385,Broad Stream,streams,Pinnularia (small - mesolepta??)_NA,Pinnularia,genus,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+386,Broad Stream,streams,Pinnularia sp. (large)_NA,Pinnularia,genus,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+387,Broad Stream,streams,Tabellaria flocculosa_NA,Tabellaria,species,floating,primary producer,2.9634e-09,1,0,0,0,0,0,0
+388,Broad Stream,streams,Closterium sp._NA,Closterium,genus,floating,primary producer,9.14e-11,1,0,0,0,0,0,0
+389,Broad Stream,streams,Microspora sp._NA,Microspora,genus,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+390,Broad Stream,streams,Terrestrial invertebrates_NA,Terrestrial,unclassified,floating,invertebrate,0.0011729075000000001,0,0,0,1,0,0,0
+391,Broad Stream,streams,Gomphonema truncatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+392,Broad Stream,streams,Nitzschia sp. (large)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+393,Broad Stream,streams,Synedra rumpens_NA,Synedra,species,floating,primary producer,2.95616e-08,0,1,0,0,0,0,0
+394,Broad Stream,streams,Synedra ulna_NA,Synedra,species,floating,primary producer,2.9008e-09,1,0,0,0,0,0,0
+395,Broad Stream,streams,Epithemia sorex_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+396,Broad Stream,streams,Navicula avenacea_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+397,Broad Stream,streams,Fragilaria spp._NA,Fragilaria,genus,floating,primary producer,1.003299375e-08,0,1,0,0,0,0,0
+398,Broad Stream,streams,Gomphoneis herculeana_NA,Gomphoneis,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+399,Broad Stream,streams,Rhoicosphenia curvata_NA,Rhoicosphenia,species,floating,primary producer,4.3310714285714285e-09,0,1,0,0,0,0,0
+400,Broad Stream,streams,Rhopalodia novae zelandicae_NA,Rhopalodia,species,floating,primary producer,5.0949999999999995e-09,0,1,0,0,0,0,0
+401,Broad Stream,streams,Surirella tenera ??_NA,Surirella,species,floating,primary producer,1.1232500000000001e-08,0,1,0,0,0,0,0
+402,Broad Stream,streams,Asterionella sp._NA,Asterionella,genus,floating,primary producer,9.573333333333333e-10,0,1,0,0,0,0,0
+403,Broad Stream,streams,Navicula cf. radiosa_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+404,Broad Stream,streams,Cymbella cuspidata_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+405,Broad Stream,streams,Surirella (small)_NA,Surirella,genus,floating,primary producer,1.1232500000000001e-08,0,1,0,0,0,0,0
+406,Broad Stream,streams,Melosira varians_NA,Melosira,species,floating,primary producer,3.830657142857144e-09,1,0,0,0,0,0,0
+407,Broad Stream,streams,Stauroneis sp._NA,Stauroneis,genus,floating,primary producer,1.465e-10,0,1,0,0,0,0,0
+408,Broad Stream,streams,Amphora sp._NA,Amphora,genus,floating,primary producer,4.892229166666667e-10,0,1,0,0,0,0,0
+409,Canton Creek,streams,Achnanthes lanceoloata_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+410,Canton Creek,streams,Cymbella minuta_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+411,Canton Creek,streams,Eunotia sp._NA,Eunotia,genus,floating,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+412,Canton Creek,streams,Frustulia rhomboides_NA,Frustulia,species,floating,primary producer,7.762499999999999e-10,0,1,0,0,0,0,0
+413,Canton Creek,streams,Gomphonema cf. olivaceum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+414,Canton Creek,streams,Gomphonema truncatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+415,Canton Creek,streams,Gomphonema parvulum_NA,Gomphonema,species,floating,primary producer,1.5312249999999995e-09,1,0,0,0,0,0,0
+416,Canton Creek,streams,Aucalosira sp._NA,Aucalosira,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+417,Canton Creek,streams,Navicula avenacea_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+418,Canton Creek,streams,Synedra ulna_NA,Synedra,species,floating,primary producer,2.9008e-09,1,0,0,0,0,0,0
+419,Canton Creek,streams,Microspora sp._NA,Microspora,genus,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+420,Canton Creek,streams,Cyclotella sp._NA,Cyclotella,genus,floating,primary producer,1.0499999999999997e-10,1,0,0,0,0,0,0
+421,Canton Creek,streams,Fragilaria vaucheriae_NA,Fragilaria,species,floating,primary producer,8.796666666666665e-10,1,0,0,0,0,0,0
+422,Canton Creek,streams,Navicula sp._NA,Navicula,genus,floating,primary producer,9.01e-10,1,0,0,0,0,0,0
+423,Canton Creek,streams,Nitzschia sp. (small)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+424,Canton Creek,streams,Rhoicosphenia curvata_NA,Rhoicosphenia,species,floating,primary producer,4.3310714285714285e-09,0,1,0,0,0,0,0
+425,Canton Creek,streams,Surirella (small)_NA,Surirella,genus,floating,primary producer,1.1232500000000001e-08,0,1,0,0,0,0,0
+426,Canton Creek,streams,Terrestrial invertebrates_NA,Terrestrial,unclassified,floating,invertebrate,0.005557973481481482,0,0,0,1,0,0,0
+427,Canton Creek,streams,Achnanthes linearis_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+428,Canton Creek,streams,Cocconeis sp._NA,Cocconeis,genus,floating,primary producer,1.1311310344827583e-08,0,1,0,0,0,0,0
+429,Canton Creek,streams,Cymbella aspera_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+430,Canton Creek,streams,Cymbella cuspidata_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+431,Canton Creek,streams,Cymbella kappii_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+432,Canton Creek,streams,Epithemia sorex_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+433,Canton Creek,streams,Epithemia zebra_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+434,Canton Creek,streams,Gomphonema subclavatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+435,Canton Creek,streams,Meridion circulare_NA,Meridion,species,floating,primary producer,2.2490000000000004e-09,1,0,0,0,0,0,0
+436,Canton Creek,streams,Navicula cryptocephala_NA,Navicula,species,floating,primary producer,1.2900000000000003e-08,1,0,0,0,0,0,0
+437,Canton Creek,streams,Pinnularia (small - mesolepta??)_NA,Pinnularia,genus,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+438,Canton Creek,streams,Pinnularia sp. (large)_NA,Pinnularia,genus,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+439,Canton Creek,streams,Stauroneis sp._NA,Stauroneis,genus,floating,primary producer,1.465e-10,0,1,0,0,0,0,0
+440,Canton Creek,streams,Surirella tenera ??_NA,Surirella,species,floating,primary producer,1.1232500000000001e-08,0,1,0,0,0,0,0
+441,Canton Creek,streams,Tabellaria flocculosa_NA,Tabellaria,species,floating,primary producer,2.9634e-09,1,0,0,0,0,0,0
+442,Canton Creek,streams,Achnanthes saxonica_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+443,Canton Creek,streams,Diatoma heimale_NA,Diatoma,species,floating,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+444,Canton Creek,streams,Eunotia sp. large_NA,Eunotia,genus,floating,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+445,Canton Creek,streams,Fragilaria spp._NA,Fragilaria,genus,floating,primary producer,1.003299375e-08,0,1,0,0,0,0,0
+446,Canton Creek,streams,Gomphoneis herculeana_NA,Gomphoneis,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+447,Canton Creek,streams,Navicula rhynchocephala_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+448,Canton Creek,streams,Nitzschia sp. (large)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+449,Canton Creek,streams,Mougeotia sp._NA,Mougeotia,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+450,Canton Creek,streams,Audouinella_NA,Audouinella_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+451,Canton Creek,streams,Melosira varians_NA,Melosira,species,floating,primary producer,3.830657142857144e-09,1,0,0,0,0,0,0
+452,Canton Creek,streams,Navicula cf. radiosa_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+453,Canton Creek,streams,Achnanthes minutissima_NA,Achnanthes,species,floating,primary producer,7.003285714285714e-10,1,0,0,0,0,0,0
+454,Canton Creek,streams,Gomphonema acuminatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+455,Canton Creek,streams,Diploneis sp._NA,Diploneis,genus,floating,primary producer,4.41e-09,0,1,0,0,0,0,0
+456,Canton Creek,streams,Synedra rumpens_NA,Synedra,species,floating,primary producer,2.95616e-08,0,1,0,0,0,0,0
+457,Canton Creek,streams,Oedogonium_NA,Oedogonium_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+458,Canton Creek,streams,Closterium sp._NA,Closterium,genus,floating,primary producer,9.14e-11,1,0,0,0,0,0,0
+459,Canton Creek,streams,cf. Batrachospermum?? _NA,cf.,genus,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+460,Canton Creek,streams,Rhopalodia novae zelandicae_NA,Rhopalodia,species,floating,primary producer,5.0949999999999995e-09,0,1,0,0,0,0,0
+461,Dempsters Stream,streams,Terrestial invertebrates_NA,Terrestial,unclassified,floating,invertebrate,0.04389356798275862,0,0,0,1,0,0,0
+462,Dempsters Stream,streams,Acnanthidium lanceolata_NA,Acnanthidium,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+463,Dempsters Stream,streams,Acnanthidium linearis_NA,Acnanthidium,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+464,Dempsters Stream,streams,Cocconeis sp._NA,Cocconeis,genus,floating,primary producer,1.1311310344827583e-08,0,1,0,0,0,0,0
+465,Dempsters Stream,streams,Cyclotella sp._NA,Cyclotella,genus,floating,primary producer,1.0499999999999997e-10,1,0,0,0,0,0,0
+466,Dempsters Stream,streams,Cymbella aspera_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+467,Dempsters Stream,streams,Cymbella cuspidata_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+468,Dempsters Stream,streams,Cymbella minuta_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+469,Dempsters Stream,streams,Diatoma heimale_NA,Diatoma,species,floating,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+470,Dempsters Stream,streams,Epithemia sorex_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+471,Dempsters Stream,streams,Epithemia zebra_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+472,Dempsters Stream,streams,Eunotia spp._NA,Eunotia,genus,floating,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+473,Dempsters Stream,streams,Fragilaria spp._NA,Fragilaria,genus,floating,primary producer,1.003299375e-08,0,1,0,0,0,0,0
+474,Dempsters Stream,streams,Fragilaria vaucheriae_NA,Fragilaria,species,floating,primary producer,8.796666666666665e-10,1,0,0,0,0,0,0
+475,Dempsters Stream,streams,Gomphoneis herculeana_NA,Gomphoneis,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+476,Dempsters Stream,streams,Gomphonema angustatum_NA,Gomphonema,species,floating,primary producer,4.2350000000000004e-10,1,0,0,0,0,0,0
+477,Dempsters Stream,streams,Gomphonema sp._NA,Gomphonema,genus,floating,primary producer,1.3e-11,1,0,0,0,0,0,0
+478,Dempsters Stream,streams,Gomphonema subclavatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+479,Dempsters Stream,streams,Melosira italica/distans_NA,Melosira,genus,floating,primary producer,1.7177300000000002e-09,0,1,0,0,0,0,0
+480,Dempsters Stream,streams,Melosira varians_NA,Melosira,species,floating,primary producer,3.830657142857144e-09,1,0,0,0,0,0,0
+481,Dempsters Stream,streams,Navicula avenacea_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+482,Dempsters Stream,streams,Navicula cryptocephala_NA,Navicula,species,floating,primary producer,1.2900000000000003e-08,1,0,0,0,0,0,0
+483,Dempsters Stream,streams,Nitzschia sp. (large)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+484,Dempsters Stream,streams,Pinnularia mesoleptus_NA,Pinnularia,species,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+485,Dempsters Stream,streams,Pinnularia sp. (large)_NA,Pinnularia,genus,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+486,Dempsters Stream,streams,Rhoicosphenia curvata_NA,Rhoicosphenia,species,floating,primary producer,4.3310714285714285e-09,0,1,0,0,0,0,0
+487,Dempsters Stream,streams,Surirella sp._NA,Surirella,genus,floating,primary producer,1.1232500000000001e-08,0,1,0,0,0,0,0
+488,Dempsters Stream,streams,Synedra ulna_NA,Synedra,species,floating,primary producer,2.9008e-09,1,0,0,0,0,0,0
+489,Dempsters Stream,streams,Tabellaria flocculosa_NA,Tabellaria,species,floating,primary producer,2.9634e-09,1,0,0,0,0,0,0
+490,Dempsters Stream,streams,Cymbella kappii_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+491,Dempsters Stream,streams,Gomphonema berggreni_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+492,Dempsters Stream,streams,Nitzschia sp. (small)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+493,Dempsters Stream,streams,Acnanthidium saxonica _NA,Acnanthidium,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+494,Dempsters Stream,streams,Closterium sp._NA,Closterium,genus,floating,primary producer,9.14e-11,1,0,0,0,0,0,0
+495,Dempsters Stream,streams,Gomphonema parvulum_NA,Gomphonema,species,floating,primary producer,1.5312249999999995e-09,1,0,0,0,0,0,0
+496,Dempsters Stream,streams,Navicula sp._NA,Navicula,genus,floating,primary producer,9.01e-10,1,0,0,0,0,0,0
+497,Dempsters Stream,streams,Oedogonium sp._NA,Oedogonium,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+498,Dempsters Stream,streams,Rhopalodia novae zelandicae_NA,Rhopalodia,species,floating,primary producer,5.0949999999999995e-09,0,1,0,0,0,0,0
+499,Dempsters Stream,streams,Meridion circulare_NA,Meridion,species,floating,primary producer,2.2490000000000004e-09,1,0,0,0,0,0,0
+500,Dempsters Stream,streams,Acnanthidium minutissima_NA,Acnanthidium,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+501,Dempsters Stream,streams,Synedra rumpens_NA,Synedra,species,floating,primary producer,2.95616e-08,0,1,0,0,0,0,0
+502,Dempsters Stream,streams,Frustulia rhomboides_NA,Frustulia,species,floating,primary producer,7.762499999999999e-10,0,1,0,0,0,0,0
+503,Dempsters Stream,streams,Navicula rhynchocephala_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+504,Dempsters Stream,streams,Audouinella sp._NA,Audouinella,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+505,Dempsters Stream,streams,Scenedesmus sp._NA,Scenedesmus,genus,floating,primary producer,1.6100000000000004e-10,1,0,0,0,0,0,0
+506,German Creek,streams,Achnanthes lanceoloata_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+507,German Creek,streams,Cymbella sinuata_NA,Cymbella,species,floating,primary producer,1.8094833333333331e-09,1,0,0,0,0,0,0
+508,German Creek,streams,Fragilaria vaucheriae_NA,Fragilaria,species,floating,primary producer,8.796666666666665e-10,1,0,0,0,0,0,0
+509,German Creek,streams,Gomphoneis herculeana_NA,Gomphoneis,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+510,German Creek,streams,Gomphonema cf. olivaceum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+511,German Creek,streams,Nitzschia sp. (small)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+512,German Creek,streams,Cocconeis sp._NA,Cocconeis,genus,floating,primary producer,1.1311310344827583e-08,0,1,0,0,0,0,0
+513,German Creek,streams,Cyclotella sp._NA,Cyclotella,genus,floating,primary producer,1.0499999999999997e-10,1,0,0,0,0,0,0
+514,German Creek,streams,Cymbella kappii_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+515,German Creek,streams,Cymbella minuta_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+516,German Creek,streams,Synedra ulna_NA,Synedra,species,floating,primary producer,2.9008e-09,1,0,0,0,0,0,0
+517,German Creek,streams,Audouinella_NA,Audouinella_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+518,German Creek,streams,Terrestrial invertebrates_NA,Terrestrial,unclassified,floating,invertebrate,0.0011119715135135136,0,0,0,1,0,0,0
+519,German Creek,streams,Epithemia sorex_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+520,German Creek,streams,Frustulia rhomboides_NA,Frustulia,species,floating,primary producer,7.762499999999999e-10,0,1,0,0,0,0,0
+521,German Creek,streams,Sephanodiscus sp._NA,Sephanodiscus,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+522,German Creek,streams,Aucalosira sp._NA,Aucalosira,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+523,German Creek,streams,Navicula avenacea_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+524,German Creek,streams,Navicula rhynchocephala_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+525,German Creek,streams,Navicula sp._NA,Navicula,genus,floating,primary producer,9.01e-10,1,0,0,0,0,0,0
+526,German Creek,streams,Nitzschia sp. (large)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+527,German Creek,streams,Pinnularia sp. (large)_NA,Pinnularia,genus,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+528,German Creek,streams,Rhoicosphenia curvata_NA,Rhoicosphenia,species,floating,primary producer,4.3310714285714285e-09,0,1,0,0,0,0,0
+529,German Creek,streams,Surirella (small)_NA,Surirella,genus,floating,primary producer,1.1232500000000001e-08,0,1,0,0,0,0,0
+530,German Creek,streams,Surirella tenera ??_NA,Surirella,species,floating,primary producer,1.1232500000000001e-08,0,1,0,0,0,0,0
+531,German Creek,streams,Tabellaria flocculosa_NA,Tabellaria,species,floating,primary producer,2.9634e-09,1,0,0,0,0,0,0
+532,German Creek,streams,Achnanthes sp. (small)_NA,Achnanthes,genus,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+533,German Creek,streams,Achnanthes linearis_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+534,German Creek,streams,Diatoma heimale_NA,Diatoma,species,floating,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+535,German Creek,streams,Diploneis sp._NA,Diploneis,genus,floating,primary producer,4.41e-09,0,1,0,0,0,0,0
+536,German Creek,streams,Pinnularia (small - mesolepta??)_NA,Pinnularia,genus,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+537,German Creek,streams,Achnanthes minutissima_NA,Achnanthes,species,floating,primary producer,7.003285714285714e-10,1,0,0,0,0,0,0
+538,German Creek,streams,Achnanthes saxonica_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+539,German Creek,streams,Eunotia sp._NA,Eunotia,genus,floating,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+540,German Creek,streams,Rhopalodia novae zelandicae_NA,Rhopalodia,species,floating,primary producer,5.0949999999999995e-09,0,1,0,0,0,0,0
+541,German Creek,streams,Gomphonema acuminatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+542,German Creek,streams,Synedra rumpens_NA,Synedra,species,floating,primary producer,2.95616e-08,0,1,0,0,0,0,0
+543,German Creek,streams,Asterionella sp._NA,Asterionella,genus,floating,primary producer,9.573333333333333e-10,0,1,0,0,0,0,0
+544,German Creek,streams,Gomphonema truncatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+545,German Creek,streams,Meridion circulare_NA,Meridion,species,floating,primary producer,2.2490000000000004e-09,1,0,0,0,0,0,0
+546,German Creek,streams,Gomphonema parvulum_NA,Gomphonema,species,floating,primary producer,1.5312249999999995e-09,1,0,0,0,0,0,0
+547,German Creek,streams,Gomphonema subclavatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+548,German Creek,streams,Epithemia zebra_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+549,German Creek,streams,Navicula cf. radiosa_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+550,German Creek,streams,Oedogonium_NA,Oedogonium_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+551,Healy Creek,streams,Acroperla trivacuata_larvae,Acroperla,species,walking,invertebrate,0.00012721249999999995,0,1,0,0,0,0,0
+552,Healy Creek,streams,Acnantidium linearis_NA,Acnantidium,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+553,Healy Creek,streams,Audouinella sp._NA,Audouinella,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+554,Healy Creek,streams,Cocconeis sp._NA,Cocconeis,genus,floating,primary producer,1.1311310344827583e-08,0,1,0,0,0,0,0
+555,Healy Creek,streams,Cyclotella sp._NA,Cyclotella,genus,floating,primary producer,1.0499999999999997e-10,1,0,0,0,0,0,0
+556,Healy Creek,streams,Cymbella kappii_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+557,Healy Creek,streams,Epithemia sorex_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+558,Healy Creek,streams,Fragilaria spp._NA,Fragilaria,genus,floating,primary producer,1.003299375e-08,0,1,0,0,0,0,0
+559,Healy Creek,streams,Fragilaria vaucheriae_NA,Fragilaria,species,floating,primary producer,8.796666666666665e-10,1,0,0,0,0,0,0
+560,Healy Creek,streams,Gomphoneis herculeana_NA,Gomphoneis,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+561,Healy Creek,streams,Gomphonema angustatum_NA,Gomphonema,species,floating,primary producer,4.2350000000000004e-10,1,0,0,0,0,0,0
+562,Healy Creek,streams,Gomphonema berggreni_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+563,Healy Creek,streams,Gomphonema parvulum_NA,Gomphonema,species,floating,primary producer,1.5312249999999995e-09,1,0,0,0,0,0,0
+564,Healy Creek,streams,Navicula avenacea_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+565,Healy Creek,streams,Rhoicosphenia curvata_NA,Rhoicosphenia,species,floating,primary producer,4.3310714285714285e-09,0,1,0,0,0,0,0
+566,Healy Creek,streams,Synedra ulna_NA,Synedra,species,floating,primary producer,2.9008e-09,1,0,0,0,0,0,0
+567,Healy Creek,streams,Tabellaria flocculosa_NA,Tabellaria,species,floating,primary producer,2.9634e-09,1,0,0,0,0,0,0
+568,Healy Creek,streams,Terrestrial invertebrates_NA,Terrestrial,unclassified,floating,invertebrate,0.0004942932352941178,0,0,0,1,0,0,0
+569,Healy Creek,streams,Acnantidium lanceolata_NA,Acnantidium,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+570,Healy Creek,streams,Cymbella minuta_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+571,Healy Creek,streams,Diatoma heimale_NA,Diatoma,species,floating,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+572,Healy Creek,streams,Frustulia rhomboides_NA,Frustulia,species,floating,primary producer,7.762499999999999e-10,0,1,0,0,0,0,0
+573,Healy Creek,streams,Nitzschia sp. (small)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+574,Healy Creek,streams,Pinnularia mesoleptus_NA,Pinnularia,species,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+575,Healy Creek,streams,Pinnularia sp. (large)_NA,Pinnularia,genus,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+576,Healy Creek,streams,Rhopalodia novae zelandicae_NA,Rhopalodia,species,floating,primary producer,5.0949999999999995e-09,0,1,0,0,0,0,0
+577,Healy Creek,streams,Epithemia zebra_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+578,Healy Creek,streams,Gomphonema subclavatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+579,Healy Creek,streams,Microspora sp._NA,Microspora,genus,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+580,Healy Creek,streams,Navicula cryptocephala_NA,Navicula,species,floating,primary producer,1.2900000000000003e-08,1,0,0,0,0,0,0
+581,Healy Creek,streams,Oedogonium sp._NA,Oedogonium,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+582,Healy Creek,streams,Synedra rumpens_NA,Synedra,species,floating,primary producer,2.95616e-08,0,1,0,0,0,0,0
+583,Healy Creek,streams,Eunotia spp._NA,Eunotia,genus,floating,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+584,Healy Creek,streams,Melosira varians_NA,Melosira,species,floating,primary producer,3.830657142857144e-09,1,0,0,0,0,0,0
+585,Healy Creek,streams,Navicula rhynchocephala_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+586,Healy Creek,streams,Navicula sp._NA,Navicula,genus,floating,primary producer,9.01e-10,1,0,0,0,0,0,0
+587,Healy Creek,streams,Acnantidium minutissima_NA,Acnantidium,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+588,Healy Creek,streams,Cymbella aspera_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+589,Healy Creek,streams,Gomphonema sp._NA,Gomphonema,genus,floating,primary producer,1.3e-11,1,0,0,0,0,0,0
+590,Healy Creek,streams,Melosira italica/distans_NA,Melosira,genus,floating,primary producer,1.7177300000000002e-09,0,1,0,0,0,0,0
+591,Healy Creek,streams,Meridion circulare_NA,Meridion,species,floating,primary producer,2.2490000000000004e-09,1,0,0,0,0,0,0
+592,Healy Creek,streams,Nitzschia sp. (large)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+593,Kye Burn,streams,Terrestrial invertebrates_NA,Terrestrial,unclassified,floating,invertebrate,0.0006592723953488371,0,0,0,1,0,0,0
+594,Kye Burn,streams,Achnanthes lanceoloata_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+595,Kye Burn,streams,Achnanthes linearis_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+596,Kye Burn,streams,Cocconeis sp._NA,Cocconeis,genus,floating,primary producer,1.1311310344827583e-08,0,1,0,0,0,0,0
+597,Kye Burn,streams,Cyclotella sp._NA,Cyclotella,genus,floating,primary producer,1.0499999999999997e-10,1,0,0,0,0,0,0
+598,Kye Burn,streams,Cymbella minuta_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+599,Kye Burn,streams,Diatoma heimale_NA,Diatoma,species,floating,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+600,Kye Burn,streams,Epithemia sorex_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+601,Kye Burn,streams,Epithemia zebra_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+602,Kye Burn,streams,Eunotia sp._NA,Eunotia,genus,floating,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+603,Kye Burn,streams,Fragilaria vaucheriae_NA,Fragilaria,species,floating,primary producer,8.796666666666665e-10,1,0,0,0,0,0,0
+604,Kye Burn,streams,Fragilaria spp._NA,Fragilaria,genus,floating,primary producer,1.003299375e-08,0,1,0,0,0,0,0
+605,Kye Burn,streams,Gomphoneis herculeana_NA,Gomphoneis,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+606,Kye Burn,streams,Gomphonema cf. olivaceum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+607,Kye Burn,streams,Gomphonema truncatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+608,Kye Burn,streams,Gomphonema parvulum_NA,Gomphonema,species,floating,primary producer,1.5312249999999995e-09,1,0,0,0,0,0,0
+609,Kye Burn,streams,Gomphonema subclavatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+610,Kye Burn,streams,Gomphonema sp. (skinny - tenue??)_NA,Gomphonema,genus,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+611,Kye Burn,streams,Sephanodiscus sp._NA,Sephanodiscus,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+612,Kye Burn,streams,Aucalosira sp._NA,Aucalosira,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+613,Kye Burn,streams,Navicula avenacea_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+614,Kye Burn,streams,Navicula sp._NA,Navicula,genus,floating,primary producer,9.01e-10,1,0,0,0,0,0,0
+615,Kye Burn,streams,Nitzschia sp. (small)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+616,Kye Burn,streams,Pinnularia (small - mesolepta??)_NA,Pinnularia,genus,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+617,Kye Burn,streams,Pinnularia sp. (large)_NA,Pinnularia,genus,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+618,Kye Burn,streams,Rhoicosphenia curvata_NA,Rhoicosphenia,species,floating,primary producer,4.3310714285714285e-09,0,1,0,0,0,0,0
+619,Kye Burn,streams,Rhopalodia novae zelandicae_NA,Rhopalodia,species,floating,primary producer,5.0949999999999995e-09,0,1,0,0,0,0,0
+620,Kye Burn,streams,Surirella tenera ??_NA,Surirella,species,floating,primary producer,1.1232500000000001e-08,0,1,0,0,0,0,0
+621,Kye Burn,streams,Synedra ulna_NA,Synedra,species,floating,primary producer,2.9008e-09,1,0,0,0,0,0,0
+622,Kye Burn,streams,Tabellaria flocculosa_NA,Tabellaria,species,floating,primary producer,2.9634e-09,1,0,0,0,0,0,0
+623,Kye Burn,streams,Microspora sp._NA,Microspora,genus,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+624,Kye Burn,streams,Oedogonium_NA,Oedogonium_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+625,Kye Burn,streams,Audouinella_NA,Audouinella_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+626,Kye Burn,streams,Cymbella aspera_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+627,Kye Burn,streams,Cymbella cuspidata_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+628,Kye Burn,streams,Cymbella kappii_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+629,Kye Burn,streams,Frustulia rhomboides_NA,Frustulia,species,floating,primary producer,7.762499999999999e-10,0,1,0,0,0,0,0
+630,Kye Burn,streams,Gomphonema acuminatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+631,Kye Burn,streams,Navicula cf. radiosa_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+632,Kye Burn,streams,Meiofauna_NA,Meiofauna_NA,unclassified,floating,invertebrate,0.0006592723953488371,0,0,0,1,0,0,0
+633,Kye Burn,streams,Navicula rhynchocephala_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+634,Kye Burn,streams,Achnanthes sp. (small)_NA,Achnanthes,genus,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+635,Kye Burn,streams,Asterionella sp._NA,Asterionella,genus,floating,primary producer,9.573333333333333e-10,0,1,0,0,0,0,0
+636,Kye Burn,streams,Synedra rumpens_NA,Synedra,species,floating,primary producer,2.95616e-08,0,1,0,0,0,0,0
+637,Kye Burn,streams,Nitzschia sp. (large)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+638,Kye Burn,streams,Eunotia sp. large_NA,Eunotia,genus,floating,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+639,Kye Burn,streams,Melosira varians_NA,Melosira,species,floating,primary producer,3.830657142857144e-09,1,0,0,0,0,0,0
+640,Kye Burn,streams,Meridion circulare_NA,Meridion,species,floating,primary producer,2.2490000000000004e-09,1,0,0,0,0,0,0
+641,Kye Burn,streams,Navicula cryptocephala_NA,Navicula,species,floating,primary producer,1.2900000000000003e-08,1,0,0,0,0,0,0
+642,Kye Burn,streams,Diploneis sp._NA,Diploneis,genus,floating,primary producer,4.41e-09,0,1,0,0,0,0,0
+643,Kye Burn,streams,Achnanthes minutissima_NA,Achnanthes,species,floating,primary producer,7.003285714285714e-10,1,0,0,0,0,0,0
+644,Kye Burn,streams,Achnanthes saxonica_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+645,Little Kye Burn,streams,Achnanthes lanceolata_NA,Achnanthes,species,floating,primary producer,1.90826e-09,1,0,0,0,0,0,0
+646,Little Kye Burn,streams,Achnanthes linearis_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+647,Little Kye Burn,streams,Cymbella kappii_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+648,Little Kye Burn,streams,Cymbella minuta_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+649,Little Kye Burn,streams,Diatoma heimale_NA,Diatoma,species,floating,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+650,Little Kye Burn,streams,Eunotia spp._NA,Eunotia,genus,floating,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+651,Little Kye Burn,streams,Fragilaria spp_NA,Fragilaria,genus,floating,primary producer,1.003299375e-08,0,1,0,0,0,0,0
+652,Little Kye Burn,streams,Gomphoneis herculeana_NA,Gomphoneis,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+653,Little Kye Burn,streams,Gomphonema angustatum_NA,Gomphonema,species,floating,primary producer,4.2350000000000004e-10,1,0,0,0,0,0,0
+654,Little Kye Burn,streams,Gomphonema subclavatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+655,Little Kye Burn,streams,Navicula avenacea_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+656,Little Kye Burn,streams,Navicula sp._NA,Navicula,genus,floating,primary producer,9.01e-10,1,0,0,0,0,0,0
+657,Little Kye Burn,streams,Synedra ulna_NA,Synedra,species,floating,primary producer,2.9008e-09,1,0,0,0,0,0,0
+658,Little Kye Burn,streams,Oedogonium_NA,Oedogonium_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+659,Little Kye Burn,streams,Fragilaria vaucheriae_NA,Fragilaria,species,floating,primary producer,8.796666666666665e-10,1,0,0,0,0,0,0
+660,Little Kye Burn,streams,Synedra rumpens_NA,Synedra,species,floating,primary producer,2.95616e-08,0,1,0,0,0,0,0
+661,Little Kye Burn,streams,Terrestial invertebrates_NA,Terrestial,unclassified,floating,invertebrate,0.0004066093783783783,0,0,0,1,0,0,0
+662,Little Kye Burn,streams,Cyclotella sp._NA,Cyclotella,genus,floating,primary producer,1.0499999999999997e-10,1,0,0,0,0,0,0
+663,Little Kye Burn,streams,Cymbella aspera_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+664,Little Kye Burn,streams,Ulothrix_NA,Ulothrix_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+665,Little Kye Burn,streams,Cocconeis sp._NA,Cocconeis,genus,floating,primary producer,1.1311310344827583e-08,0,1,0,0,0,0,0
+666,Little Kye Burn,streams,Epithemia sorex_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+667,Little Kye Burn,streams,Gomphonema parvulum_NA,Gomphonema,species,floating,primary producer,1.5312249999999995e-09,1,0,0,0,0,0,0
+668,Little Kye Burn,streams,Navicula cryptocephala_NA,Navicula,species,floating,primary producer,1.2900000000000003e-08,1,0,0,0,0,0,0
+669,Little Kye Burn,streams,Nitzschia sp. (small)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+670,Little Kye Burn,streams,Gomphonema sp._NA,Gomphonema,genus,floating,primary producer,1.3e-11,1,0,0,0,0,0,0
+671,Little Kye Burn,streams,Meridion circulare_NA,Meridion,species,floating,primary producer,2.2490000000000004e-09,1,0,0,0,0,0,0
+672,Little Kye Burn,streams,Tabellaria flocculosa_NA,Tabellaria,species,floating,primary producer,2.9634e-09,1,0,0,0,0,0,0
+673,Little Kye Burn,streams,Audouinella_NA,Audouinella_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+674,Little Kye Burn,streams,Sirodotia_NA,Sirodotia_NA,genus,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+675,Little Kye Burn,streams,Nitzschia sp. (large)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+676,Little Kye Burn,streams,Batrachospermum_NA,Batrachospermum_NA,genus,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+677,Little Kye Burn,streams,Epithemia zebra_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+678,Little Kye Burn,streams,Frustulia rhomboides_NA,Frustulia,species,floating,primary producer,7.762499999999999e-10,0,1,0,0,0,0,0
+679,Little Kye Burn,streams,Melosira distans/italica_NA,Melosira,genus,floating,primary producer,1.7177300000000002e-09,0,1,0,0,0,0,0
+680,Little Kye Burn,streams,Pinnularia sp. (large)_NA,Pinnularia,genus,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+681,Stony Stream,streams,Achnanthes lanceoloata_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+682,Stony Stream,streams,Cocconeis sp._NA,Cocconeis,genus,floating,primary producer,1.1311310344827583e-08,0,1,0,0,0,0,0
+683,Stony Stream,streams,Cyclotella sp._NA,Cyclotella,genus,floating,primary producer,1.0499999999999997e-10,1,0,0,0,0,0,0
+684,Stony Stream,streams,Cymbella minuta_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+685,Stony Stream,streams,Diatoma heimale_NA,Diatoma,species,floating,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+686,Stony Stream,streams,Epithemia sorex_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+687,Stony Stream,streams,Eunotia sp._NA,Eunotia,genus,floating,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+688,Stony Stream,streams,Fragilaria vaucheriae_NA,Fragilaria,species,floating,primary producer,8.796666666666665e-10,1,0,0,0,0,0,0
+689,Stony Stream,streams,Fragilaria spp._NA,Fragilaria,genus,floating,primary producer,1.003299375e-08,0,1,0,0,0,0,0
+690,Stony Stream,streams,Frustulia rhomboides_NA,Frustulia,species,floating,primary producer,7.762499999999999e-10,0,1,0,0,0,0,0
+691,Stony Stream,streams,Gomphoneis herculeana_NA,Gomphoneis,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+692,Stony Stream,streams,Gomphonema cf. olivaceum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+693,Stony Stream,streams,Gomphonema truncatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+694,Stony Stream,streams,Gomphonema parvulum_NA,Gomphonema,species,floating,primary producer,1.5312249999999995e-09,1,0,0,0,0,0,0
+695,Stony Stream,streams,Gomphonema subclavatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+696,Stony Stream,streams,Aucalosira sp._NA,Aucalosira,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+697,Stony Stream,streams,Navicula avenacea_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+698,Stony Stream,streams,Nitzschia sp. (small)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+699,Stony Stream,streams,Nitzschia sp. (large)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+700,Stony Stream,streams,Rhoicosphenia curvata_NA,Rhoicosphenia,species,floating,primary producer,4.3310714285714285e-09,0,1,0,0,0,0,0
+701,Stony Stream,streams,Surirella tenera ??_NA,Surirella,species,floating,primary producer,1.1232500000000001e-08,0,1,0,0,0,0,0
+702,Stony Stream,streams,Synedra ulna_NA,Synedra,species,floating,primary producer,2.9008e-09,1,0,0,0,0,0,0
+703,Stony Stream,streams,Tabellaria flocculosa_NA,Tabellaria,species,floating,primary producer,2.9634e-09,1,0,0,0,0,0,0
+704,Stony Stream,streams,Oedogonium_NA,Oedogonium_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+705,Stony Stream,streams,Spirogyra_NA,Spirogyra_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+706,Stony Stream,streams,Audouinella_NA,Audouinella_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+707,Stony Stream,streams,Achnanthes saxonica_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+708,Stony Stream,streams,Cymbella sp._NA,Cymbella,genus,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+709,Stony Stream,streams,Meridion circulare_NA,Meridion,species,floating,primary producer,2.2490000000000004e-09,1,0,0,0,0,0,0
+710,Stony Stream,streams,Navicula cryptocephala_NA,Navicula,species,floating,primary producer,1.2900000000000003e-08,1,0,0,0,0,0,0
+711,Stony Stream,streams,Hantzschia sp._NA,Hantzschia,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+712,Stony Stream,streams,Pinnularia (small - mesolepta??)_NA,Pinnularia,genus,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+713,Stony Stream,streams,Terrestial invertebrates_NA,Terrestial,unclassified,floating,invertebrate,0.00021522448,0,0,0,1,0,0,0
+714,Stony Stream,streams,Achnanthes linearis_NA,Achnanthes,species,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+715,Stony Stream,streams,Rhopalodia novae zelandiae_NA,Rhopalodia,species,floating,primary producer,5.0949999999999995e-09,0,1,0,0,0,0,0
+716,Stony Stream,streams,Achnanthes minutissima_NA,Achnanthes,species,floating,primary producer,7.003285714285714e-10,1,0,0,0,0,0,0
+717,Stony Stream,streams,Asterionella sp._NA,Asterionella,genus,floating,primary producer,9.573333333333333e-10,0,1,0,0,0,0,0
+718,Stony Stream,streams,Epithemia zebra_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+719,Stony Stream,streams,Navicula cf. radiosa_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+720,Stony Stream,streams,Navicula sp._NA,Navicula,genus,floating,primary producer,9.01e-10,1,0,0,0,0,0,0
+721,Stony Stream,streams,Pinnularia sp. (large)_NA,Pinnularia,genus,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+722,Stony Stream,streams,Closterium sp._NA,Closterium,genus,floating,primary producer,9.14e-11,1,0,0,0,0,0,0
+723,Stony Stream,streams,Melosira varians_NA,Melosira,species,floating,primary producer,3.830657142857144e-09,1,0,0,0,0,0,0
+724,Stony Stream,streams,Synedra rumpens_NA,Synedra,species,floating,primary producer,2.95616e-08,0,1,0,0,0,0,0
+725,Stony Stream,streams,Cymbella aspera_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+726,Stony Stream,streams,Cymbella kappii_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+727,Stony Stream,streams,Microspora sp._NA,Microspora,genus,sessile,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+728,Stony Stream,streams,Ulothrix_NA,Ulothrix_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+729,Stony Stream,streams,Rhopalodia musculus_NA,Rhopalodia,species,floating,primary producer,5.0949999999999995e-09,0,1,0,0,0,0,0
+730,Stony Stream,streams,Mougeotia?_NA,Mougeotia?_NA,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+731,Stony Stream,streams,Eunotia sp. large_NA,Eunotia,genus,floating,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+732,Stony Stream,streams,Navicula rhynchocephala_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+733,Stony Stream,streams,Surirella (small)_NA,Surirella,genus,floating,primary producer,1.1232500000000001e-08,0,1,0,0,0,0,0
+734,Stony Stream,streams,Achnanthes sp. (small)_NA,Achnanthes,genus,floating,primary producer,2.0141341463414633e-09,0,1,0,0,0,0,0
+735,Stony Stream,streams,Diploneis sp._NA,Diploneis,genus,floating,primary producer,4.41e-09,0,1,0,0,0,0,0
+736,Stony Stream,streams,Navicula bicephala_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+737,Sutton Stream,streams,Terrestrial Invertebrates_NA,Terrestrial,unclassified,floating,invertebrate,0.0002508527333333333,0,0,0,1,0,0,0
+738,Sutton Stream,streams,Acnanthidium lanceoloata_NA,Acnanthidium,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+739,Sutton Stream,streams,Acnanthidium linearis_NA,Acnanthidium,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+740,Sutton Stream,streams,Aucalosira sp._NA,Aucalosira,genus,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+741,Sutton Stream,streams,Cocconeis sp._NA,Cocconeis,genus,floating,primary producer,1.1311310344827583e-08,0,1,0,0,0,0,0
+742,Sutton Stream,streams,Cyclotella stelligera_NA,Cyclotella,species,floating,primary producer,2.772727272727273e-10,0,1,0,0,0,0,0
+743,Sutton Stream,streams,Cymbella aspera_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+744,Sutton Stream,streams,Cymbella kappii_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+745,Sutton Stream,streams,Cymbella minuta_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+746,Sutton Stream,streams,Diatoma heimale_NA,Diatoma,species,floating,primary producer,1.177391220909091e-08,0,1,0,0,0,0,0
+747,Sutton Stream,streams,Epithemia sorex_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+748,Sutton Stream,streams,Epithemia zebra_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+749,Sutton Stream,streams,Eunotia miesteri_NA,Eunotia,species,floating,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+750,Sutton Stream,streams,Eunotia pectinalis_NA,Eunotia,species,floating,primary producer,1.7249999999999997e-09,1,0,0,0,0,0,0
+751,Sutton Stream,streams,Eunotia sp._NA,Eunotia,genus,floating,primary producer,1.6000000000000003e-09,0,1,0,0,0,0,0
+752,Sutton Stream,streams,Fragilaria brevistriata_NA,Fragilaria,species,floating,primary producer,1.003299375e-08,0,1,0,0,0,0,0
+753,Sutton Stream,streams,Fragilaria sp._NA,Fragilaria,genus,floating,primary producer,2.85e-09,1,0,0,0,0,0,0
+754,Sutton Stream,streams,Gomphonema angustatum_NA,Gomphonema,species,floating,primary producer,4.2350000000000004e-10,1,0,0,0,0,0,0
+755,Sutton Stream,streams,Gomphonema constrictum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+756,Sutton Stream,streams,Gomphonema parvulum_NA,Gomphonema,species,floating,primary producer,1.5312249999999995e-09,1,0,0,0,0,0,0
+757,Sutton Stream,streams,Gomphonema subclavatum_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+758,Sutton Stream,streams,Melosira varians_NA,Melosira,species,floating,primary producer,3.830657142857144e-09,1,0,0,0,0,0,0
+759,Sutton Stream,streams,Navicula avenacea_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+760,Sutton Stream,streams,Navicula cryptocephala_NA,Navicula,species,floating,primary producer,1.2900000000000003e-08,1,0,0,0,0,0,0
+761,Sutton Stream,streams,Nitzschia sp. (small)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+762,Sutton Stream,streams,Pinnularia sp. (large)_NA,Pinnularia,genus,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+763,Sutton Stream,streams,Pinnularia viridis_NA,Pinnularia,species,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+764,Sutton Stream,streams,Rhoicosphenia curvata_NA,Rhoicosphenia,species,floating,primary producer,4.3310714285714285e-09,0,1,0,0,0,0,0
+765,Sutton Stream,streams,Surirella sp. (large)_NA,Surirella,genus,floating,primary producer,1.1232500000000001e-08,0,1,0,0,0,0,0
+766,Sutton Stream,streams,Synedra rumpens_NA,Synedra,species,floating,primary producer,2.95616e-08,0,1,0,0,0,0,0
+767,Sutton Stream,streams,Synedra ulna_NA,Synedra,species,floating,primary producer,2.9008e-09,1,0,0,0,0,0,0
+768,Sutton Stream,streams,Tabellaria flocculosa_NA,Tabellaria,species,floating,primary producer,2.9634e-09,1,0,0,0,0,0,0
+769,Sutton Stream,streams,Epithemia turgida_NA,Epithemia,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+770,Sutton Stream,streams,Frustulia rhomboides_NA,Frustulia,species,floating,primary producer,7.762499999999999e-10,0,1,0,0,0,0,0
+771,Sutton Stream,streams,Gomphoneis herculeana_NA,Gomphoneis,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+772,Sutton Stream,streams,Gyrosigma spencerii_NA,Gyrosigma,species,floating,primary producer,5.1493e-08,0,1,0,0,0,0,0
+773,Sutton Stream,streams,Meridion circulare_NA,Meridion,species,floating,primary producer,2.2490000000000004e-09,1,0,0,0,0,0,0
+774,Sutton Stream,streams,Navicula gregaria_NA,Navicula,species,floating,primary producer,1.7599999999999997e-09,1,0,0,0,0,0,0
+775,Sutton Stream,streams,Navicula mutica_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+776,Sutton Stream,streams,Navicula rhynchocephala_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+777,Sutton Stream,streams,Nitzschia sp. (large)_NA,Nitzschia,genus,floating,primary producer,3.8549775230307695e-09,0,1,0,0,0,0,0
+778,Sutton Stream,streams,Pinnularia mesoleptus_NA,Pinnularia,species,floating,primary producer,1.4994999999999996e-08,0,1,0,0,0,0,0
+779,Sutton Stream,streams,Surirella sp._NA,Surirella,genus,floating,primary producer,1.1232500000000001e-08,0,1,0,0,0,0,0
+780,Sutton Stream,streams,Fragilaria vaucheriae_NA,Fragilaria,species,floating,primary producer,8.796666666666665e-10,1,0,0,0,0,0,0
+781,Sutton Stream,streams,Surirella sp. (small)_NA,Surirella,genus,floating,primary producer,1.1232500000000001e-08,0,1,0,0,0,0,0
+782,Sutton Stream,streams,Acnanthidium minutissima_NA,Acnanthidium,species,floating,primary producer,0.17666175818620392,0,0,0,0,0,1,0
+783,Sutton Stream,streams,Cymbella cuspidata_NA,Cymbella,species,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+784,Sutton Stream,streams,Diploneis sp._NA,Diploneis,genus,floating,primary producer,4.41e-09,0,1,0,0,0,0,0
+785,Sutton Stream,streams,Gomphonema berggreni_NA,Gomphonema,species,floating,primary producer,1.4096786363636367e-09,0,1,0,0,0,0,0
+786,Sutton Stream,streams,Navicula gastrum_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0
+787,Sutton Stream,streams,Navicula sp._NA,Navicula,genus,floating,primary producer,9.01e-10,1,0,0,0,0,0,0
+788,Sutton Stream,streams,Amphora sp._NA,Amphora,genus,floating,primary producer,4.892229166666667e-10,0,1,0,0,0,0,0
+789,Sutton Stream,streams,Cymbella sp._NA,Cymbella,genus,floating,primary producer,1.9869888888888886e-09,0,1,0,0,0,0,0
+790,Sutton Stream,streams,Rhopalodia novae zelandicae_NA,Rhopalodia,species,floating,primary producer,5.0949999999999995e-09,0,1,0,0,0,0,0
+791,Sutton Stream,streams,Navicula hungarica_NA,Navicula,species,floating,primary producer,9.011079761538462e-09,0,1,0,0,0,0,0

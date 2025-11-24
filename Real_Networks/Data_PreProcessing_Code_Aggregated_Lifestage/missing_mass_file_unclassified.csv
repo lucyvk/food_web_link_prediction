@@ -1,0 +1,49 @@
+,node_name,mov.type,met.type,num_food_webs
+0,POM (detritus),other_nonliving,detritus,1
+1,algae,sessile,primary producer,48
+2,dead organic matter,other_nonliving,dead organic material,48
+3,saphrophytes,other,heterotrophic fungi,48
+4,leaf litter,other_nonliving,dead organic material,48
+5,mykorrhiza,other,heterotrophic fungi,48
+6,plants,sessile,primary producer,48
+7,root exudates,sessile,primary producer,48
+8,roots,sessile,primary producer,48
+9,Sediment,other_nonliving,other,3
+10,Phytodetritus,other_nonliving,detritus,2
+11,POM,other_nonliving,detritus,2
+12,benthic detritus,other_nonliving,detritus,42
+13,benthic_diatoms,sessile,primary producer,4
+14,Macroalgae,sessile,primary producer,2
+15,Detritus,other_nonliving,detritus,11
+16,Epipellic flora,sessile,primary producer,1
+17,Phytoplankton,other,primary producer,1
+18,Marine detritus,other_nonliving,detritus,1
+19,carrion-detritus,other_nonliving,detritus,1
+20,CPOM,other_nonliving,detritus,13
+21,FPOM,other_nonliving,detritus,13
+22,mosses,sessile,primary producer,7
+23,grasses and sedges,sessile,primary producer,7
+24,forbs,sessile,primary producer,7
+25,shrubs,sessile,primary producer,7
+26,lichens,sessile,primary producer,5
+27,Microfungi,sessile,heterotrophic fungi,1
+28,Vegetation,sessile,primary producer,1
+29,Bacteria,other,heterotrophic bacteria,5
+30,Usipa larvae,swimming,ectotherm vertebrate,1
+31,Phytoplankton,floating,primary producer,1
+32,Fungi,sessile,heterotrophic fungi,4
+33,Macrophytes,sessile,primary producer,4
+34,terrestrial detritus,other_nonliving,detritus,4
+35,Unidentified detritus,other_nonliving,detritus,10
+36,Macrophyte,sessile,primary producer,7
+37,Moss cells,sessile,primary producer,5
+38,Unknown green algae filaments,sessile,primary producer,6
+39,Blue-green algae,sessile,primary producer,6
+40,unknown red algae spp.,sessile,primary producer,2
+41,Unknown green algal filaments,sessile,primary producer,1
+42,Plant (macrophyte) cells,sessile,primary producer,2
+43,Green algae unid.,floating,primary producer,1
+44,Unknown green algae species,sessile,primary producer,1
+45,Unknown  green algal filaments,sessile,primary producer,1
+46,Unknown green algal cells,sessile,primary producer,1
+47,detritus,other_nonliving,detritus,1
