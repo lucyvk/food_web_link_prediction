@@ -60,7 +60,7 @@ In the folder Real_Networks/Data_PreProcessing_Code_Disaggregated_Lifestage, a J
 The folder Real_Networks/Data_PreProcessing_Code_Aggregated_Lifestage similarly provides the code for processing the original data if species nodes are aggregated across lifestages, which we performed as a sensitivity test and is reported in the supplementary information. Lifestage disaggregation changed the set of nodes for
 25 out of the 290 food webs (491 nodes added in total with disaggregation). We found nearly identical missing link prediction performance with lifestage aggregation.
 
-Real_Networks/data_processing_helper.py includes helper functions used in these data processing scripts.
+Real_Networks/data_processing_helper.py includes helper functions used in these data pre-processing scripts.
 
 Real_Networks/Input_Data_Disaggregated_Lifestage includes the edge lists and and node lists with attributes for all 290 of the food webs that were evaluated to produce the main text results. 
 
@@ -89,6 +89,7 @@ Helper functions implementing predictors used in the stacking model are provided
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 Additional processed data files and results files across all food webs and synthetic networks can be regenerated from the above code, or provided upon request. The data processing, link prediction scripts, and synthetic network visualizations were run on CentOS Linux 7, and the food web visualizations and demonstration scripts for both empirical and synthetic networks were run on Windows 11. Cloning this repository should typically take less than 1 minute.
+
 
 
 
