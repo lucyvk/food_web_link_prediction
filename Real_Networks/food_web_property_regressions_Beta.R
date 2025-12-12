@@ -53,7 +53,7 @@ res_location = 'Summarized_Results/food_web_lp_res.csv'
 # number display settings 
 options(scipen=100, digits=5)
 
-network_metadata <- read.csv('Processed_Data_Disaggregated_Lifestage/food_web_metadata.csv', header = TRUE, sep = ",", dec = ".")
+network_metadata <- read.csv('Input_Data_Disaggregated_Lifestage/food_web_metadata.csv', header = TRUE, sep = ",", dec = ".")
 display_names <- read.csv('net_props_display_names.csv', header = TRUE, sep = ",", dec = ".")
 display_dict <- setNames(display_names$display, display_names$feat)
 
@@ -322,59 +322,72 @@ for (typ in 1:6) {
     # Output a table and coefficient plot in the same format for the results with logN included
 
     # ROC-AUC
-
-    # Create a dataframe in the form expected by the dotwhisker plot (look like a multivariate res)
-    struc_roc_part_logN <- select(struc_roc_res_df_logN, c("mean_coef","mean_coef_se","p_adjusted"))
-    struc_roc_part_logN <- cbind(rownames(struc_roc_part_logN), data.frame(struc_roc_part_logN, row.names=NULL))
-    colnames(struc_roc_part_logN) <- c("term", "estimate", "std.error","p.adjusted")
+    
+    struc_roc_part_logN <- cbind(rownames(struc_roc_res_df_logN), data.frame(struc_roc_res_df_logN, row.names=NULL))
     struc_roc_part_logN$model <- "Structure"
-
-    attr_roc_part_logN <- select(attr_roc_res_df_logN, c("mean_coef","mean_coef_se","p_adjusted"))
-    attr_roc_part_logN <- cbind(rownames(attr_roc_part_logN), data.frame(attr_roc_part_logN, row.names=NULL))
-    colnames(attr_roc_part_logN) <- c("term", "estimate", "std.error","p.adjusted")
+    colnames(struc_roc_part_logN)[1] <- c("feature_name")
+    
+    attr_roc_part_logN <- cbind(rownames(attr_roc_res_df_logN), data.frame(attr_roc_res_df_logN, row.names=NULL))
     attr_roc_part_logN$model <- "Attribute"
-
-    full_roc_part_logN <- select(full_roc_res_df_logN, c("mean_coef","mean_coef_se","p_adjusted"))
-    full_roc_part_logN <- cbind(rownames(full_roc_part_logN), data.frame(full_roc_part_logN, row.names=NULL))
-    colnames(full_roc_part_logN) <- c("term", "estimate", "std.error","p.adjusted")
+    colnames(attr_roc_part_logN)[1] <- c("feature_name")
+    
+    full_roc_part_logN <- cbind(rownames(full_roc_res_df_logN), data.frame(full_roc_res_df_logN, row.names=NULL))
     full_roc_part_logN$model <- "Full"
-
-    roc_coef_results_plot_logN <- rbind(full_roc_part_logN,attr_roc_part_logN,struc_roc_part_logN)
-    roc_coef_panel_logN <- custom_coef_plot(roc_coef_results_plot_logN, coef_order, "ROC-AUC", "none", "Food web properties, controlling for log(N)", -0.15, 0.15)
-
-    # PR-AUC
-
+    colnames(full_roc_part_logN)[1] <- c("feature_name")
+    
+    roc_coef_out_file_logN <- rbind(full_roc_part_logN, attr_roc_part_logN, struc_roc_part_logN)
+    
     # Create a dataframe in the form expected by the dotwhisker plot (look like a multivariate res)
-    struc_pr_part_logN <- select(struc_pr_res_df_logN, c("mean_coef","mean_coef_se","p_adjusted"))
-    struc_pr_part_logN <- cbind(rownames(struc_pr_part_logN), data.frame(struc_pr_part_logN, row.names=NULL))
-    colnames(struc_pr_part_logN) <- c("term", "estimate", "std.error","p.adjusted")
+    struc_roc_part_logN <- select(struc_roc_part_logN, c("feature_name","mean_coef","mean_coef_se","p_adjusted", "model"))
+    attr_roc_part_logN <- select(attr_roc_part_logN, c("feature_name","mean_coef","mean_coef_se","p_adjusted", "model"))
+    full_roc_part_logN <- select(full_roc_part_logN, c("feature_name","mean_coef","mean_coef_se","p_adjusted", "model"))
+    colnames(struc_roc_part_logN)[1:4] <- c("term", "estimate", "std.error","p.adjusted")
+    colnames(attr_roc_part_logN)[1:4] <- c("term", "estimate", "std.error","p.adjusted")
+    colnames(full_roc_part_logN)[1:4] <- c("term", "estimate", "std.error","p.adjusted")
+    roc_coef_results_plot_logN <- rbind(full_roc_part_logN,attr_roc_part_logN,struc_roc_part_logN)
+    roc_coef_panel_logN <- custom_coef_plot(roc_coef_results_plot_logN, coef_order, "ROC-AUC", "none", "Food web properties", -0.15, 0.15)
+    
+    # PR-AUC
+    
+    struc_pr_part_logN <- cbind(rownames(struc_pr_res_df_logN), data.frame(struc_pr_res_df_logN, row.names=NULL))
     struc_pr_part_logN$model <- "Structure"
-
-    attr_pr_part_logN <- select(attr_pr_res_df_logN, c("mean_coef","mean_coef_se","p_adjusted"))
-    attr_pr_part_logN <- cbind(rownames(attr_pr_part_logN), data.frame(attr_pr_part_logN, row.names=NULL))
-    colnames(attr_pr_part_logN) <- c("term", "estimate", "std.error","p.adjusted")
+    colnames(struc_pr_part_logN)[1] <- c("feature_name")
+    
+    attr_pr_part_logN <- cbind(rownames(attr_pr_res_df_logN), data.frame(attr_pr_res_df_logN, row.names=NULL))
     attr_pr_part_logN$model <- "Attribute"
-
-    full_pr_part_logN <- select(full_pr_res_df_logN, c("mean_coef","mean_coef_se","p_adjusted"))
-    full_pr_part_logN <- cbind(rownames(full_pr_part_logN), data.frame(full_pr_part_logN, row.names=NULL))
-    colnames(full_pr_part_logN) <- c("term", "estimate", "std.error","p.adjusted")
+    colnames(attr_pr_part_logN)[1] <- c("feature_name")
+    
+    full_pr_part_logN <- cbind(rownames(full_pr_res_df_logN), data.frame(full_pr_res_df_logN, row.names=NULL))
     full_pr_part_logN$model <- "Full"
-
+    colnames(full_pr_part_logN)[1] <- c("feature_name")
+    
+    pr_coef_out_file_logN <- rbind(full_pr_part_logN, attr_pr_part_logN, struc_pr_part_logN)
+    
+    # Create a dataframe in the form expected by the dotwhisker plot (look like a multivariate res)
+    struc_pr_part_logN <- select(struc_pr_part_logN, c("feature_name","mean_coef","mean_coef_se","p_adjusted", "model"))
+    attr_pr_part_logN <- select(attr_pr_part_logN, c("feature_name","mean_coef","mean_coef_se","p_adjusted", "model"))
+    full_pr_part_logN <- select(full_pr_part_logN, c("feature_name","mean_coef","mean_coef_se","p_adjusted", "model"))
+    colnames(struc_pr_part_logN)[1:4] <- c("term", "estimate", "std.error","p.adjusted")
+    colnames(attr_pr_part_logN)[1:4] <- c("term", "estimate", "std.error","p.adjusted")
+    colnames(full_pr_part_logN)[1:4] <- c("term", "estimate", "std.error","p.adjusted")
     pr_coef_results_plot_logN <- rbind(full_pr_part_logN,attr_pr_part_logN,struc_pr_part_logN)
     pr_coef_panel_logN <- custom_coef_plot(pr_coef_results_plot_logN, coef_order, "PR-AUC", "none", "", -0.15, 0.15)
 
     roc_coef_results_plot_logN$metric <- "ROC-AUC"
     pr_coef_results_plot_logN$metric <- "PR-AUC"
     full_reg_results_logN <- rbind(roc_coef_results_plot_logN, pr_coef_results_plot_logN)
-    colnames(full_reg_results_logN)[1:4] <- c("feature_name","coef_estimate","coef_std_error","coef_p_adjusted")
-    full_reg_results_logN$significance <- sapply(full_reg_results_logN$coef_p_adjusted, to_star_string)
-    write.csv(full_reg_results_logN, file = glue("Regression_Results_Beta/food_web_regression_results_{curr_eco_type_name}_logN_Beta_{Scaled}.csv"))
 
     pdf(file=glue("Regression_Results_Beta/Coefficient_Plot_{Scaled}_{curr_eco_type_name}_logN_Beta.pdf"), width=7.4, height=6, family="Helvetica")
     plot_labels <- c("a","b")
     coef_figure <- ggarrange(roc_coef_panel_logN, pr_coef_panel_logN, labels=plot_labels, ncol=2, nrow=1, legend="bottom", common.legend=TRUE, font.label=list(family="Helvetica", size = FONT_SIZE, face="plain"))
     print(coef_figure)
     dev.off()
+    
+    roc_coef_out_file_logN$metric <- "ROC-AUC"
+    pr_coef_out_file_logN$metric <- "PR-AUC"
+    full_reg_results_logN <- rbind(roc_coef_out_file_logN,pr_coef_out_file_logN)
+    full_reg_results_logN$significance <- sapply(full_reg_results_logN$p_adjusted, to_star_string)
+    write.csv(full_reg_results_logN, file = glue("Regression_Results_Beta/food_web_regression_results_{curr_eco_type_name}_logN_Beta_{Scaled}.csv"))
     
     # Plot individual covariates vs. metrics (colored by model)
 
