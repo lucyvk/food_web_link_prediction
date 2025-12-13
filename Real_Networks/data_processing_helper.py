@@ -1,4 +1,4 @@
-# Helper functions used throughout the data processing notebooks
+# Helper functions used throughout the data pre-processing notebooks
 # Author - Lucy Van Kleunen
 
 import numpy as np
