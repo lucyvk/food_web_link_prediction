@@ -1,15 +1,15 @@
 ﻿feat,display
-LNTDi,local triangles node i
-LNTDj,local triangles node j
-trophic-i,trophic level node i
-trophic-j,trophic level node j
+LNTDi,local triangles node $\it{i}$
+LNTDj,local triangles node $\it{j}$
+trophic-i,trophic level node $\it{i}$
+trophic-j,trophic level node $\it{j}$
 PPRD,personalized page rank
-PRDi,page rank node i
-PRDj,page rank node j
-DSPBCi,betweenness centrality node i
-DSPBCj,betweenness centrality node j
-LCi,load centrality node i
-LCj,load centrality node j
+PRDi,page rank node $\it{i}$
+PRDj,page rank node $\it{j}$
+DSPBCi,betweenness centrality node $\it{i}$
+DSPBCj,betweenness centrality node $\it{j}$
+LCi,load centrality node $\it{i}$
+LCj,load centrality node $\it{j}$
 LRA,low rank approximation
 dLRA,low rank dot product
 mLRA,low rank mean
@@ -17,28 +17,28 @@ LRA-approx,low rank approximation (approx)
 dLRA-approx,low rank dot product (approx)
 mLRA-approx,low rank mean (approx)
 DSP,shortest path
-ANDIi,average neighbor in degree node i
-ANDIj,average neighbor in degree node j
-ANDOi,average neighbor out degree node i
-ANDOj,average neighbor out degree node j
-ECIi,eigenvector centrality (in) node i
-ECIj,eigenvector centrality (in) node j
-ECOi,eigenvector centrality (out) node i
-ECOj,eigenvector centrality (out) node j
-DCIi,in-degree centrality node i
-DCIj,in-degree centrality node j
-DCOi,out-degree centrality node i
-DCOj,out-degree centrality node j
-CCIi,closeness centrality (in) node i
-CCIj,closeness centrality (in) node j
-CCOi,closeness centrality (out) node i
-CCOj,closeness centrality (out) node j
-KCIi,Katz centrality (in) node i
-KCIj,Katz centrality (in) node j
-KCOi,Katz centrality (out) node i
-KCOj,Katz centrality (out) node j
-LCCDi,local clustering coefficient node i
-LCCDj,local clustering coefficient node j
+ANDIi,average neighbor in degree node $\it{i}$
+ANDIj,average neighbor in degree node $\it{j}$
+ANDOi,average neighbor out degree node $\it{i}$
+ANDOj,average neighbor out degree node $\it{j}$
+ECIi,eigenvector centrality (in) node $\it{i}$
+ECIj,eigenvector centrality (in) node $\it{j}$
+ECOi,eigenvector centrality (out) node $\it{i}$
+ECOj,eigenvector centrality (out) node $\it{j}$
+DCIi,in-degree centrality node $\it{i}$
+DCIj,in-degree centrality node $\it{j}$
+DCOi,out-degree centrality node $\it{i}$
+DCOj,out-degree centrality node $\it{j}$
+CCIi,closeness centrality (in) node $\it{i}$
+CCIj,closeness centrality (in) node $\it{j}$
+CCOi,closeness centrality (out) node $\it{i}$
+CCOj,closeness centrality (out) node $\it{j}$
+KCIi,Katz centrality (in) node $\it{i}$
+KCIj,Katz centrality (in) node $\it{j}$
+KCOi,Katz centrality (out) node $\it{i}$
+KCOj,Katz centrality (out) node $\it{j}$
+LCCDi,local clustering coefficient node $\it{i}$
+LCCDj,local clustering coefficient node $\it{j}$
 ECN,ecological common neighbor count
 ECN-score,ecological common neighbor score
 ELHN,ecological Leicht-Holme-Newman index
@@ -68,40 +68,40 @@ EPA,ecological preferential attachment
 ERA,ecological resource allocation index
 EAA,ecological Adamic/Adar index
 EJC,ecological Jaccard coefficent
-log_mass_i,log(mass) node i
-log_mass_j,log(mass) node j
+log_mass_i,log(mass) node $\it{i}$
+log_mass_j,log(mass) node $\it{j}$
 log_mass_ratio,log(mass) ratio
-mass_missing_i,mass missing node i
-mass_missing_j,mass missing node j
-met_invertebrate_i,inverterbate node i
-met_invertebrate_j,invertebrate node j
-met_primary_producer_i,primary producer node i
-met_primary_producer_j,primary producer node j
-met_ectotherm_vertebrate_i,ectotherm vertebrate node i
-met_ectotherm_vertebrate_j,ectotherm vertebrate node j
-met_endotherm_vertebrate_i,endotherm vertebrate node i
-met_endotherm_vertebrate_j,endotherm vertebrate node j
-met_detritus_i,detritus node i
-met_detritus_j,detritus node j
-met_heterotrophic_fungi_i,heterotrophic fungi node i
-met_heterotrophic_fungi_j,heterotrophic fungi node j
-met_heterotrophic_bacteria_i,heterotrophic bacteria node i
-met_heterotrophic_bacteria_j,heterotrophic bacteria node j
-met_dead_organic_material_i,dead organic material node i
-met_dead_organic_material_j,dead organic material node j
-met_other_i,other metabolic type node i
-met_other_j,other metabolic type node j
-mov_walking_i,walking movement node i
-mov_walking_j,walking movement node j
-mov_swimming_i,swimming movement node i
-mov_swimming_j,swimming movement node j
-mov_sessile_i,sessile movement node i
-mov_sessile_j,sessile movement node j
-mov_flying_i,flying movement node i
-mov_flying_j,flying movement node j
-mov_other_i,other movement type node i
-mov_other_j,other movement type node j
-mov_floating_i,floating movement type node i
-mov_floating_j,floating movement type node j
-mov_other_nonliving_i,other non-living movement type node i
-mov_other_nonliving_j,other non-living movement type node j
+mass_missing_i,mass missing node $\it{i}$
+mass_missing_j,mass missing node $\it{j}$
+met_invertebrate_i,inverterbate node $\it{i}$
+met_invertebrate_j,invertebrate node $\it{j}$
+met_primary_producer_i,primary producer node $\it{i}$
+met_primary_producer_j,primary producer node $\it{j}$
+met_ectotherm_vertebrate_i,ectotherm vertebrate node $\it{i}$
+met_ectotherm_vertebrate_j,ectotherm vertebrate node $\it{j}$
+met_endotherm_vertebrate_i,endotherm vertebrate node $\it{i}$
+met_endotherm_vertebrate_j,endotherm vertebrate node $\it{j}$
+met_detritus_i,detritus node $\it{i}$
+met_detritus_j,detritus node $\it{j}$
+met_heterotrophic_fungi_i,heterotrophic fungi node $\it{i}$
+met_heterotrophic_fungi_j,heterotrophic fungi node $\it{j}$
+met_heterotrophic_bacteria_i,heterotrophic bacteria node $\it{i}$
+met_heterotrophic_bacteria_j,heterotrophic bacteria node $\it{j}$
+met_dead_organic_material_i,dead organic material node $\it{i}$
+met_dead_organic_material_j,dead organic material node $\it{j}$
+met_other_i,other metabolic type node $\it{i}$
+met_other_j,other metabolic type node $\it{j}$
+mov_walking_i,walking movement node $\it{i}$
+mov_walking_j,walking movement node $\it{j}$
+mov_swimming_i,swimming movement node $\it{i}$
+mov_swimming_j,swimming movement node $\it{j}$
+mov_sessile_i,sessile movement node $\it{i}$
+mov_sessile_j,sessile movement node $\it{j}$
+mov_flying_i,flying movement node $\it{i}$
+mov_flying_j,flying movement node $\it{j}$
+mov_other_i,other movement type node $\it{i}$
+mov_other_j,other movement type node $\it{j}$
+mov_floating_i,floating movement type node $\it{i}$
+mov_floating_j,floating movement type node $\it{j}$
+mov_other_nonliving_i,other non-living movement type node $\it{i}$
+mov_other_nonliving_j,other non-living movement type node $\it{j}$
