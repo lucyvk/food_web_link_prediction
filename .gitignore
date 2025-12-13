@@ -7,12 +7,12 @@
 *.Rhistory
 *.pptx
 *.jpg
-Real_Networks/Data_Processing_Code_*_Lifestage/assortativities/
-Real_Networks/Data_Processing_Code_*_Lifestage/data_details/
-Real_Networks/Data_Processing_Code_*_Lifestage/figures/
-Real_Networks/Data_Processing_Code_*_Lifestage/network_properties/
+Real_Networks/Data_PreProcessing_Code_*_Lifestage/assortativities/
+Real_Networks/Data_PreProcessing_Code_*_Lifestage/data_details/
+Real_Networks/Data_PreProcessing_Code_*_Lifestage/figures/
+Real_Networks/Data_PreProcessing_Code_*_Lifestage/network_properties/
 Real_Networks/Figures/
-Real_Networks/Processed_Data_Disaggregated_Lifestage_*/
+Real_Networks/Input_Data_Disaggregated_Lifestage_*/
 Real_Networks/Regression_Results/PR/
 Real_Networks/Regression_Results/ROC/
 Real_Networks/Regression_Results_Beta/PR/
@@ -24,5 +24,5 @@ Synthetic_Networks/Synth_Nets_Directed_Assortative/
 Synthetic_Networks/Synth_Nets_Directed_Disassortative/
 Synthetic_Networks/Figures/
 
-!Real_Networks/Processed_Data_Disaggregated_Lifestage/fw_attr_types.pickle
-!Real_Networks/Processed_Data_Disaggregated_Lifestage/fw_ids.pickle
+!Real_Networks/Input_Data_Disaggregated_Lifestage/fw_attr_types.pickle
+!Real_Networks/Input_Data_Disaggregated_Lifestage/fw_ids.pickle
