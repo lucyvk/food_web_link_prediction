@@ -26,3 +26,6 @@ Synthetic_Networks/Figures/
 
 !Real_Networks/Input_Data_Disaggregated_Lifestage/fw_attr_types.pickle
 !Real_Networks/Input_Data_Disaggregated_Lifestage/fw_ids.pickle
+!Real_Networks/Input_Data_Aggregated_Lifestage/fw_ids.pickle
+!Real_Networks/Data_PreProcessing_Code_Aggregated_Lifestage/fw_metadata.pickle
+!Real_Networks/Data_PreProcessing_Code_Disaggregated_Lifestage/fw_metadata.pickle

@@ -26,7 +26,7 @@ np.random.seed(SEED)
 OUTPUT_FOLDER = 'Synth_Nets_Directed_Disassortative'
 
 # Uncomment if output folder not in same location
-# OUTPUT_FOLDER = os.path.join('..','Synth_Nets_Directed_Assortative')
+# OUTPUT_FOLDER = os.path.join('..','Synth_Nets_Directed_Disassortative')
 # if not os.path.exists(OUTPUT_FOLDER):
 #    os.mkdir(OUTPUT_FOLDER)
 
