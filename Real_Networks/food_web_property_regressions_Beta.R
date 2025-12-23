@@ -17,7 +17,7 @@ model_colors <- c('#6B8E23','#5f9ea0','#D2691E')
 model_shapes <- c(6,2,1)
 FONT_SIZE <- 9
 FONT_SIZE2 <- 15.75
-Scaled <- "Scaled"
+Scaled <- "Unscaled"
 
 # To set the fonts for the figures
 library(extrafont)
@@ -217,7 +217,7 @@ for (typ in 1:6) {
       colour = "grey60",
       linetype = 2
     ), vars_order=vars_order, dot_args = list(aes(shape = model))) + ggtitle(glue("Predicting {titl_type}")) +
-      labs(y=y_lab,caption="Coefficient estimate (univariate)")+
+      labs(y=y_lab,caption="Coefficient estimate (univariable)")+
       theme_bw(base_family="Helvetica") +
       scale_color_manual(values = model_colors)+
       scale_shape_manual(values = model_shapes)+
