@@ -2,6 +2,8 @@ This repository contains the code used in the pre-print "Predicting missing link
 
 Lucy B. Van Kleunen, Laura E. Dee, Kate L. Wootton, Francois Massol, Aaron Clauset. 2024.
 
+[![DOI](https://zenodo.org/badge/895658759.svg)](https://doi.org/10.5281/zenodo.18026668)
+
 # Quick start
 
 A conda environment with the set of required packages for running the scripts can be created by running:
@@ -87,6 +89,7 @@ Helper functions implementing predictors used in the stacking model are provided
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 Additional intermediate and results files across all food webs and synthetic networks can be regenerated from the above code, or provided upon request. The data pre-processing, link prediction scripts, and synthetic network visualizations were run on CentOS Linux 7, and the food web visualizations and demonstration scripts for both empirical and synthetic networks were run on Windows 11. Cloning this repository should typically take less than 1 minute.
+
 
 
 
