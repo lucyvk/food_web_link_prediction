@@ -17,7 +17,7 @@ model_colors <- c('#6B8E23','#5f9ea0','#D2691E')
 model_shapes <- c(6,2,1)
 FONT_SIZE <- 9
 FONT_SIZE2 <- 15.75
-Scaled <- "Unscaled"
+Scaled <- "Scaled"
 
 # To set the fonts for the figures
 library(extrafont)
