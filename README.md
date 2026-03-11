@@ -1,8 +1,6 @@
-This repository contains the code used in the pre-print "Predicting missing links in food webs using stacked models and species traits" -  https://doi.org/10.1101/2024.11.22.624890
+This repository contains the code used in the paper:
 
-Lucy B. Van Kleunen, Laura E. Dee, Kate L. Wootton, Francois Massol, Aaron Clauset. 2024.
-
-[![DOI](https://zenodo.org/badge/895658759.svg)](https://doi.org/10.5281/zenodo.18026668)
+Van Kleunen, L.B., Dee, L.E., Wootton, K.L. et al. Predicting missing links in food webs using stacked models and species traits. Nat Commun 17, 2298 (2026). https://doi.org/10.1038/s41467-026-68769-7
 
 # Quick start
 
@@ -89,6 +87,7 @@ Helper functions implementing predictors used in the stacking model are provided
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 Additional intermediate and results files across all food webs and synthetic networks can be regenerated from the above code, or provided upon request. The data pre-processing, link prediction scripts, and synthetic network visualizations were run on CentOS Linux 7, and the food web visualizations and demonstration scripts for both empirical and synthetic networks were run on Windows 11. Cloning this repository should typically take less than 1 minute.
+
 
 
 
